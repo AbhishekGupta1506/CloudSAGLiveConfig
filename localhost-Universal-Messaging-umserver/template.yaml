@@ -1,4 +1,4 @@
-alias: CCUM
+alias: localhost-Universal-Messaging-umserver
 environments:
   default:
     universal-messaging-umserver.common-local-users-administrator.password: ''
@@ -30,13 +30,13 @@ environments:
     universal-messaging-umserver.um-jndi-dest-topictransient.autocreatedest: 'false'
     universal-messaging-umserver.um-jndi-dest-ttest.autocreatedest: 'false'
 layers:
-  CCUM-layer:
-    templates: CCUM-template
+  localhost-Universal-Messaging-umserver-layer:
+    templates: localhost-Universal-Messaging-umserver-template
 provision:
   default:
-    CCUM-layer: ${nodes}
+    localhost-Universal-Messaging-umserver-layer: ${nodes}
 templates:
-  CCUM-template:
+  localhost-Universal-Messaging-umserver-template:
     products:
       NUMRealmServer:
         umserver:

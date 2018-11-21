@@ -1,80 +1,80 @@
-alias: CCIS
+alias: localhost-OSGI-IS_default
 environments:
   default:
-    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{5Eh4s6tHNSV4OhjC3ltf0hNvaWVEfan2yHOUJi7LGFk=}{vlwxGKV6rT0ceWdoK0/cUw==}buo3FbN2zjKXizxLn4HFAw=='
+    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{bA82x6NYy/JW8ASfTZB3VOAiSzxzvzasoIaXkPmO5ic=}{jMcl2yGnUoqJ9jJNKHx+Iw==}CwTymUqZVaJXRJg/DpNAeQ=='
     integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{5mrQxxtO1+4fB80Ij1R/YPxHae3j+5u5jnP4qLCxZ38=}{qhRlmdAGn9lHg8OU7AXL0Q==}V+s0bc6SiAXCEKvVYdkyew=='
+    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{2VGHKmDeyQ6vDvMpn0OD58HqDfNVeleaxb7jLEL8QY0=}{SKBOKxlclLhAjFbyZRNiwg==}8hLbk/TWiLCoLXo5WDWk8w=='
     integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-is_jms_connection_no_auth.jms.password: '{AES/CBC/PKCS5Padding}{cogH7N78ZWHu8AymZNhS2evdYNE3ypmRDVUie6+OEyg=}{FKPjRfrAMq0fjzEfFDppSg==}xxkdw02AZHfMkzIbHE0M0w=='
-    integrationserver-default.common-jms-is_jms_connection_no_auth.jms.user: test
-    integrationserver-default.common-jms-jms_test_auth.jms.password: '{AES/CBC/PKCS5Padding}{OMIJupJupv0rGMiPFdaSCDONAzsvQPEy4v3nXXrzAp0=}{g8WJSNuKgzxe/LmjMqDKbQ==}itDcHLsIcFbJlljFO90WDw=='
+    integrationserver-default.common-jms-is_jms_connection_no_auth.jms.user: ''
+    integrationserver-default.common-jms-jms_test_auth.jms.password: '{AES/CBC/PKCS5Padding}{yDtx3rmhcMsSitrayTxmxXMOfvU7YsUxGAt/9xPvYFU=}{/Zq7DaCnzDNn9Tz3m2bB5w==}4xcEYXEyfFqzGFPfzS/BQw=='
     integrationserver-default.common-jms-jms_test_auth.jms.user: test
-    integrationserver-default.common-jms-qcf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{VpS9hGO9pn2h5t7l5TUu7ASo/Vw+H0DLuSOge14GoUg=}{yI8Af6sRHcHwdapFa0PyIw==}fqkeFuTrB4aUeBOGjsWpRg=='
+    integrationserver-default.common-jms-qcf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{s8TKv2p3YD/gJeqU/PkJXO5CmoEPaP+UFr19aDNiwDU=}{gHqGoXKtf31Ff/IwQKozrQ==}qRD/YYkf1NXJLLO1+M8IGw=='
     integrationserver-default.common-jms-qcf_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{hjBJDMVASpPNYQcD6xrZfhxPJVAlGJcys+5wMUPnfhY=}{9npD1WLnAItvNfI7iiafgA==}R9hYh2uZipUrnFOg6cDShA=='
+    integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{Ame55qsyJqNqxl89HcAWwOLc6I9+8HBpofH6NmLzvFk=}{tK7H5loTWkvQAo2mv9aQyA==}lyOlJ+3cGHPaaeOUp6aeZg=='
     integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{qFMTITMGHyalNuXD1w/s5fAI0hMDgP3NTy1QDyrnrmc=}{qC7Ky0Av07LUi7DGWARbVg==}vsqAFgIVxILeYTN7Dfj1LQ=='
+    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{pd+tok1OglNS+sg295f8yQ/VXXdfDt31TF2u0qz75Fs=}{qCFgmDOA7r8HkkEC3NyW8A==}7i77lvFClYgeuM9m/Ipo5g=='
     integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-xacf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{inTDTRf6FHhjkOrVsVKoxm5Vz8A8PSAnJCtAiz/OyXg=}{ruT6EFUJpA82HFwadYxPLw==}WfMzkaAm+fIAibGElu9Sug=='
+    integrationserver-default.common-jms-xacf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{aQ6uvItsSdYh6hQ+h8/gMYRxTQJlOjLUOit/EHTP71g=}{4AidZP8c4UMZJ5zF9T8BtA==}kBppO9qIBWs1xpJcR5AabA=='
     integrationserver-default.common-jms-xacf_is_jms_connection.jms.user: test
-    integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password: '{AES/CBC/PKCS5Padding}{t+9yF1nFQsPKvLpGEwZTswisfrd9mDYmwLsc1vbGbWk=}{veIuvzbdYsXHAf4cdRmHIw==}wom/OVt5K3zBlm0qzOuaEA=='
+    integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password: ''
     integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url: nsp://localhost:9000
-    integrationserver-default.common-jndi-jndi_nhp.jndi.provider.user: test
-    integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.password: '{AES/CBC/PKCS5Padding}{8wXy0SxE8RtyLBs9OHpA+pyhPcus0crtjUjy2yY1nbU=}{ZhpWWkYobNvrZm5exnJ4MA==}mGOE9BOA2uyuuPgo1p0BNw=='
+    integrationserver-default.common-jndi-jndi_nhp.jndi.provider.user: ''
+    integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.password: '{AES/CBC/PKCS5Padding}{RlsSxrWfWcGSfqX+zJ6n3RLpWNolWZ1DJ9CoIZkluB4=}{sk8+YXYEPX61xK2v6a0Peg==}mxvYnmChrubiE32ZVfejOg=='
     integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.url: nsp://dcldev01.eur.ad.sag:9001/
     integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.user: test
-    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password: '{AES/CBC/PKCS5Padding}{69+4ys/Ws/Rr3PCP/K/2GU6tilntzDdkF1mZkOFWeI4=}{CqUi5wpeLVf2tlonruYAQw==}xz8HgINnitetZOOZoCFI0g=='
+    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password: '{AES/CBC/PKCS5Padding}{x+EuQaVyBlW/5lKbgjW59de5xh0kv1tpsbmArol3d1w=}{QakNnzr6D162edpDULBFiw==}HWiLN/wj8VCxRSpHqdE2zw=='
     integrationserver-default.common-jndi-jndi_nhps.jndi.provider.url: nsp://localhost:9000
     integrationserver-default.common-jndi-jndi_nhps.jndi.provider.user: test
+    integrationserver-default.common-jndi-jndi_nsp.jndi.provider.password: ''
     integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url: nsp://localhost:9000
     integrationserver-default.common-jndi-jndi_nsp.jndi.provider.user: ''
-    integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password: '{AES/CBC/PKCS5Padding}{qKOZXnRXqEPU8bmEKBdMJpUyb28YvSsk0WFjte59esw=}{xqz3PQK/ujfpme8af2bA4A==}v+26il9Mq9TN+lWnHCUB1g=='
+    integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password: '{AES/CBC/PKCS5Padding}{46wxBYV8qfzLxIAhHYL0Mdu2847rWOh6b/PhRshut2A=}{5bEoYxwgFs68ryOSqBXx3A==}scEZO1szb6BxLkyk794k/Q=='
     integrationserver-default.common-jndi-jndi_nsps.jndi.provider.url: nsps://localhost:9002/
     integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user: test
-    integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.password: '{AES/CBC/PKCS5Padding}{XH5YeVGZ2hKCQCATFo2YK2hcAXtFb6lG4GseawhXaEM=}{0Qj1IsDtuAzds7mew7NFhw==}6f0bnq3P7FzRfyBKXYcJGg=='
+    integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.password: '{AES/CBC/PKCS5Padding}{dMjjVVvVnYaGALlywDkmK18WmG6HJIf63cUxk3qZqbQ=}{XJrR2U4ad8ze30piSZ5t8Q==}PH1gkrVnjKacjTnjQ7hjYg=='
     integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.url: nsp://localhost:9005
     integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.user: test
     integrationserver-default.common-keystores_cloudkeystore.keystore.key.password: ''
     integrationserver-default.common-keystores_cloudkeystore.keystore.location: packages/keystorelocation/resources/CloudMigration_keystore.jks
-    integrationserver-default.common-keystores_cloudkeystore.keystore.password: '{AES/CBC/PKCS5Padding}{DjC8EELnSQXMEXi1IgFdhOkeaKPP9ezqKDQyDvaNS+k=}{9vEVxZMWZBnQqUOgmCKPHw==}Vl4wRZ3Ch5A1EDGCQKp2vQ=='
+    integrationserver-default.common-keystores_cloudkeystore.keystore.password: '{AES/CBC/PKCS5Padding}{RrFKOZCO5Lp9HT65keMw2DTT3WxV561SdZRW+8Hb5qA=}{3hsA63VDHSYV1edilXf6hw==}kEL01llQV4Q3dFSyGSeTYA=='
     integrationserver-default.common-keystores_cloudkeystore.keystore.type: JKS
-    integrationserver-default.common-keystores_cloudkeystore1.keystore.key.password: '{AES/CBC/PKCS5Padding}{Rr2bj8g57Sm8N9qbSh/yEnDlDwmdQwdstBDF5qrfZAs=}{HuhAyZj5bWTsRn0uARfsAg==}CQQmEcEC0ll0+DBiuZYc1A=='
+    integrationserver-default.common-keystores_cloudkeystore1.keystore.key.password: '{AES/CBC/PKCS5Padding}{5gavWKyxeQrTTWR749sw7w+fmrho6pnK0JIYZLtVap0=}{UP5XpI/u+RdD8wNO5/bi0Q==}iiWhEJRyxD2DTGOiwwiowQ=='
     integrationserver-default.common-keystores_cloudkeystore1.keystore.location: packages\keystorelocation\resources\CloudMigration_keystore.jks
-    integrationserver-default.common-keystores_cloudkeystore1.keystore.password: '{AES/CBC/PKCS5Padding}{S0mNVaEqDPiAKQeBHRcI8MhC2E4dP5TkdcPV0qkg8xE=}{bgPjBJ79geFe8WYaRl9CXQ==}KHWTVuOiLgLMOwsDaTiLSg=='
+    integrationserver-default.common-keystores_cloudkeystore1.keystore.password: '{AES/CBC/PKCS5Padding}{shlE+9BnRl56adTLWjuTLVhyLgejymsy91ZPNO3KQFc=}{FQ0iq4cVeRWc6rH0BvmOww==}h28iFjn38d7vdKD36+RNMA=='
     integrationserver-default.common-keystores_cloudkeystore1.keystore.type: JKS
-    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{nrhse0WsqsLFzGdMvo0c1HermNWgTkKwYqlmPuliZmU=}{WstGkkjC9X8n5TOA3WN0ng==}czagcJdxEa60qhVg7PZYHw=='
+    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{G9Y0vIbOPeltmb9gnOim0YY9mcH2UrqZv0HG4yc4yj0=}{0sPfNQ0Ho33wffiAgHK1Ig==}2lFKkdfQj8k3xUhCYpWc8w=='
     integrationserver-default.common-keystores_cloudmigration_keystore.keystore.location: C:\SoftwareAG912\common\conf\CloudMigration_keystore.jks
-    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{dzk8SNo2/wIq1cpGBl9ttYtXkBjLGnaXs3ttfbjVjTc=}{61aBYVmdQkY3w8wkDqHphA==}MmYbg3X3ZsKH2DAVt/c+5g=='
+    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{6NbZWd3gMAHpsxoOwJrQmdbI0u7sOOoCoFhakDDn+JM=}{gz915kWzrkm7GPXhyYfLww==}rVhVK6zjBWAgB1zklP3Vng=='
     integrationserver-default.common-keystores_cloudmigration_keystore.keystore.type: JKS
-    integrationserver-default.common-keystores_default_is_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{w8ISQ9h2VUjICzZKw8ewv/MeUE0hiMDJq9ldB2Em/cQ=}{4bTbD7+dqp3xMtrsGP9ttA==}CvDVpIUPyySruu9HuE3R9A=='
+    integrationserver-default.common-keystores_default_is_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{7adZfHmY5oBfoJcg4AovElpnxkMswetFQhXJiSUDXRA=}{y0/RHMPIJj6ZnDZQY0URAg==}tDh2J7tux0Kb4PthMqw2EA=='
     integrationserver-default.common-keystores_default_is_keystore.keystore.location: C:\SoftwareAG912\common\conf\keystore.jks
-    integrationserver-default.common-keystores_default_is_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{fNg5/YX5P8dOAymfhgd/t/3tm+HTQv4SwKAQGC++CDU=}{BhfjmUNEPdzEIUhUhcLvIQ==}OJpxSGaw4mfEVGZuFBDYKQ=='
+    integrationserver-default.common-keystores_default_is_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{bckFXnRzxYls9nBVK/6kSjYaWyIsEE0CJ4S6pXzTfcc=}{pVsLSbSRM425jjoNd34SaQ==}RHB2tPoEhU5MPiEJr+apsQ=='
     integrationserver-default.common-keystores_default_is_keystore.keystore.type: JKS
-    integrationserver-default.common-keystores_is_um_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{SWSxJE2DLoi0Nb2p5dPAGjFXLC9HPTI6WMdOL9vEid8=}{fxWw1ohqL6inEvXbfdu/Eg==}24KtzVo8hKeNtB1jNYd0Kg=='
+    integrationserver-default.common-keystores_is_um_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{xX5vg83uwVXguXrsC10ppuuRACUyFwHvSLVoIAR5rbs=}{5OBouUAGxKPTGJXDIaHZ+A==}5tlLL7WhBRBjUd8kyyU6aw=='
     integrationserver-default.common-keystores_is_um_keystore.keystore.location: C:\SoftwareAG912\UniversalMessaging\server\umserver\bin\client.jks
-    integrationserver-default.common-keystores_is_um_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{n6dTl+dEO+hSK3HOTPgjCFHrb8lr9XuY83tx6u0MZAI=}{4mwdQKE1zJKouqrOTVo8fQ==}zDrcNTbvWwT8uNe2TGU3GA=='
+    integrationserver-default.common-keystores_is_um_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{KF6YnpbKiTBLcI4LyEbTdNlXsrjCgiQ5pbhnN2qQJqw=}{NifoNfZRsFOKMCLSjllwuQ==}zQDS8RCgUOX//lBSkCZxOw=='
     integrationserver-default.common-keystores_is_um_keystore.keystore.type: JKS
-    integrationserver-default.common-keystores_keystoretest.keystore.key.password: '{AES/CBC/PKCS5Padding}{UuHjwHRLxHcFi9cwhxFmzBAtSwUMxTAC7kpJv9oiUlE=}{SgtzY+eB3gJx/p73255UOQ==}xQxvMojO3ceQCPz5mU0mfw=='
+    integrationserver-default.common-keystores_keystoretest.keystore.key.password: '{AES/CBC/PKCS5Padding}{0UCykPzimcDfilCPkBDMBiZvZNGo+kg9uyjz7MpDHE8=}{oIwz98EN8Q+Ue7bIab78SQ==}r6kqaknMpMsUGIUx5+QjmA=='
     integrationserver-default.common-keystores_keystoretest.keystore.location: packages/keytest/resources/CloudMigration_keystore.jks
-    integrationserver-default.common-keystores_keystoretest.keystore.password: '{AES/CBC/PKCS5Padding}{yzugGfZTWmj3Gmbb3yVcZl7l2gkoJP4u0GqTzMrL7sE=}{tGOCCaKtT1Sjja0QA06wAQ==}I9/wzW6CZpacCm7MpU0/AA=='
+    integrationserver-default.common-keystores_keystoretest.keystore.password: '{AES/CBC/PKCS5Padding}{TwKsZvOd8nh/4Pm02vMhA80Q2PWRrK/ItNge+NOT57o=}{CzDt9E4SouhmBb1Yq/0MQg==}hgMw1MUzXmQgTnWdU/KYMQ=='
     integrationserver-default.common-keystores_keystoretest.keystore.type: JKS
     integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location: C:\SoftwareAG912\common\conf\CloudMigration_truststore.jks
-    integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{/lVPDw9ii7OZtf+nL7m4OU7hWs13un0vcSJ/MQ0iVIk=}{1srX1K+P6LK9Fcr8m6u+0A==}5dBq5EutphDB9U4SRzfh+Q=='
+    integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{TYZB5VLfhn6czJm6EnVVIGDJZuPRqHVfmafP75EjySo=}{CxcBOhR9RyaQG0pfx4op0Q==}oGJlNxAFKDW87hmrPJ1dIw=='
     integrationserver-default.common-truststores_cloudmigration_truststore.truststore.type: JKS
     integrationserver-default.common-truststores_default_is_truststore.truststore.location: C:\SoftwareAG912\common\conf\platform_truststore.jks
-    integrationserver-default.common-truststores_default_is_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{HlnrNKiZvLoEO3dU9d/orC1VuMWrygGodi35GxIZnOI=}{pe/VhgYWS+q2XR7mRe9gmw==}nfaRZhwjK2THW5Kap7kS/w=='
+    integrationserver-default.common-truststores_default_is_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{kp+QYz5MexLs8WzrcDvivjUVl2TcYd/55a0ZaXXejL8=}{OU+oAC6zY3jq54CttIu08g==}zDwBksUveBhkAW+iXHopew=='
     integrationserver-default.common-truststores_default_is_truststore.truststore.type: JKS
     integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.location: packages\WmCloud\config\wmcloud_truststore.jks
-    integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{EP1B9r0ZBPOFR8Cq1ojjwnqQg5Z4V766Ts4UkXR/qxk=}{g8zdt1dysHJU7sjU9DAH4g==}Yx7pJ0D3pBXYDYBN1Fgs+g=='
+    integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{XxeVAnIGiENiezFWwpVRdzGGuS5NyZI5SS4R30ngxmo=}{cM1I2HJ60BZzjYxMNrEiAQ==}Sy4vCPPQvm92Bm7fVZwtPw=='
     integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.type: JKS
     integrationserver-default.common-truststores_is_um_truststore.truststore.location: C:\SoftwareAG912\UniversalMessaging\server\umserver\bin\nirvanacacerts.jks
-    integrationserver-default.common-truststores_is_um_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{uMxPCVeZdcwlIFstu1HAKcWH5kLMwBGx7IlBt6UJFsY=}{xiZlxLyYi3RIDTGOAWrC5Q==}aN2ID1iuyTpiFYOrTZylPw=='
+    integrationserver-default.common-truststores_is_um_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{Ua556LAz+35kjYh8WoGms7m9YUCK5cMzU3Hqk19YgTU=}{coYKsTK3/pN2MvT1RQlzHA==}V+Oy9zgz3F2QkOJjS0NZdg=='
     integrationserver-default.common-truststores_is_um_truststore.truststore.type: JKS
     integrationserver-default.common-truststores_trustoretest.truststore.location: packages\keystorelocation\resources\CloudMigration_truststore.jks
-    integrationserver-default.common-truststores_trustoretest.truststore.password: '{AES/CBC/PKCS5Padding}{IY9X/FdfWRJAw0FX9YdCfZimqIjc63rhg3hFPn1JkgY=}{9RrzD5sJnR+DjzBBCGErTw==}jT3X8fn8L/5DRaowb3TXXg=='
+    integrationserver-default.common-truststores_trustoretest.truststore.password: '{AES/CBC/PKCS5Padding}{IuUM9quFqdK3hNqPvs0/tQxHXQn3/OE1LVh/OvJpQo4=}{E1iFMukYURzDiP0qvodllA==}v/afx+XG4cHmBP+44fgzLA=='
     integrationserver-default.common-truststores_trustoretest.truststore.type: JKS
     integrationserver-default.common-truststores_trustoretest123.truststore.location: packages/keytest/resources/CloudMigration_truststore.jks
-    integrationserver-default.common-truststores_trustoretest123.truststore.password: '{AES/CBC/PKCS5Padding}{UJnlffE6xTdpKf5iXSP0B8JFdzxxBWAH744dpPr89SA=}{ooPST8yW6qI5uCkrpfdBpA==}BTuk2fi2xWlmRT2AxAhkiQ=='
+    integrationserver-default.common-truststores_trustoretest123.truststore.password: '{AES/CBC/PKCS5Padding}{gNWTAQbNFQrSKbBmC2HJYr/NEQg32u7PflEsSffTow4=}{EWBKM4dBVHJRo1XFnXc0sg==}dXRDJNTE36kqnYvtrCcp5w=='
     integrationserver-default.common-truststores_trustoretest123.truststore.type: JKS
     integrationserver-default.common-vars-cloudmigration.variable.$: 'Hello Cloud
       Migration: Global variable'
@@ -144,13 +144,13 @@ environments:
     integrationserver-default.is-resources.storesettings.xarecoverystore.initialstoresize: '10'
     integrationserver-default.is-resources.storesettings.xarecoverystore.storelocation: XAStore
 layers:
-  CCIS-layer:
-    templates: CCIS-template
+  localhost-OSGI-IS_default-layer:
+    templates: localhost-OSGI-IS_default-template
 provision:
   default:
-    CCIS-layer: ${nodes}
+    localhost-OSGI-IS_default-layer: ${nodes}
 templates:
-  CCIS-template:
+  localhost-OSGI-IS_default-template:
     products:
       integrationServer:
         default:
@@ -531,7 +531,6 @@ templates:
                       JNDIAlias: JNDI_NSP
                       JNDIConnectionFactoryName: EventFactory
                     User: ${integrationserver-default.common-jms-is_jms_connection_no_auth.jms.user}
-                    Password: ${integrationserver-default.common-jms-is_jms_connection_no_auth.jms.password}
                     MaxRetryAttempts: '0'
                     RetryInterval: '1000'
                     Caching: DISABLED
@@ -818,6 +817,7 @@ templates:
                       URL: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url}
                       InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
                       User: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.user}
+                      Password: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.password}
                 COMMON-JNDI-JNDI_TEST_AUTH:
                   JNDI:
                     '@alias': JNDI_TEST_AUTH
