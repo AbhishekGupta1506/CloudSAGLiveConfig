@@ -1,94 +1,76 @@
 alias: localhost-OSGI-IS_default
 environments:
   default:
-    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{bA82x6NYy/JW8ASfTZB3VOAiSzxzvzasoIaXkPmO5ic=}{jMcl2yGnUoqJ9jJNKHx+Iw==}CwTymUqZVaJXRJg/DpNAeQ=='
-    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{2VGHKmDeyQ6vDvMpn0OD58HqDfNVeleaxb7jLEL8QY0=}{SKBOKxlclLhAjFbyZRNiwg==}8hLbk/TWiLCoLXo5WDWk8w=='
-    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-is_jms_connection_no_auth.jms.user: ''
-    integrationserver-default.common-jms-jms_test_auth.jms.password: '{AES/CBC/PKCS5Padding}{yDtx3rmhcMsSitrayTxmxXMOfvU7YsUxGAt/9xPvYFU=}{/Zq7DaCnzDNn9Tz3m2bB5w==}4xcEYXEyfFqzGFPfzS/BQw=='
-    integrationserver-default.common-jms-jms_test_auth.jms.user: test
-    integrationserver-default.common-jms-qcf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{s8TKv2p3YD/gJeqU/PkJXO5CmoEPaP+UFr19aDNiwDU=}{gHqGoXKtf31Ff/IwQKozrQ==}qRD/YYkf1NXJLLO1+M8IGw=='
-    integrationserver-default.common-jms-qcf_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{Ame55qsyJqNqxl89HcAWwOLc6I9+8HBpofH6NmLzvFk=}{tK7H5loTWkvQAo2mv9aQyA==}lyOlJ+3cGHPaaeOUp6aeZg=='
-    integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{pd+tok1OglNS+sg295f8yQ/VXXdfDt31TF2u0qz75Fs=}{qCFgmDOA7r8HkkEC3NyW8A==}7i77lvFClYgeuM9m/Ipo5g=='
-    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.user: test
-    integrationserver-default.common-jms-xacf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{aQ6uvItsSdYh6hQ+h8/gMYRxTQJlOjLUOit/EHTP71g=}{4AidZP8c4UMZJ5zF9T8BtA==}kBppO9qIBWs1xpJcR5AabA=='
-    integrationserver-default.common-jms-xacf_is_jms_connection.jms.user: test
+    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{SrCnvK79HPHaJH6f+bcMhqsjYGvyuztY9Y8aAZks8ss=}{t+rcvxV3vxiM5ZudgkPJiw==}KZloIrZCmgBMP/JRl1mYQA=='
+    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.user: Administrator
+    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{ORbFADMt523gCWLOShNTDa+lRX9YScmlblKj2mqrDSw=}{TJXTjwCUzAwawRTcIPXQKw==}fpQj6xbJMGEAJQ2QclNDkQ=='
+    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user: Administrator
+    integrationserver-default.common-jms-qcf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{UH9iXjzLDpdMAuwVtIgzUZT6sLubHWAMaUrt9J6gasE=}{1ecmAIERM3dnPZ41joZrZg==}3d5sdn5m2jJDmYbZg4//cA=='
+    integrationserver-default.common-jms-qcf_is_jms_connection.jms.user: Administrator
+    integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password: ''
+    integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user: ''
+    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{3pSKXkBs1X1VEk8QTYhND+afXh4ZYmhuipqd/wHn7Uo=}{CxGK0zxw22OXWGTX7mauJA==}UcWk56JDhffA7sSf8zFWHg=='
+    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.user: Administrator
+    integrationserver-default.common-jms-xacf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{KTzcPpno8l0KV6/LvWiicUOmyuu4GT7gNaAu3C8ZDM8=}{RK2+W0JKY+5UnEQrqJRM5w==}Q+SdPdKJEnYrRlRmlCvSqQ=='
+    integrationserver-default.common-jms-xacf_is_jms_connection.jms.user: Administrator
     integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password: ''
-    integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url: nsp://localhost:9000
+    integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url: nhp://localhost:9004/
     integrationserver-default.common-jndi-jndi_nhp.jndi.provider.user: ''
-    integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.password: '{AES/CBC/PKCS5Padding}{RlsSxrWfWcGSfqX+zJ6n3RLpWNolWZ1DJ9CoIZkluB4=}{sk8+YXYEPX61xK2v6a0Peg==}mxvYnmChrubiE32ZVfejOg=='
-    integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.url: nsp://dcldev01.eur.ad.sag:9001/
-    integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.user: test
-    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password: '{AES/CBC/PKCS5Padding}{x+EuQaVyBlW/5lKbgjW59de5xh0kv1tpsbmArol3d1w=}{QakNnzr6D162edpDULBFiw==}HWiLN/wj8VCxRSpHqdE2zw=='
-    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.url: nsp://localhost:9000
-    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.user: test
+    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password: ''
+    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.url: nhps://localhost:9003/
+    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.user: ''
     integrationserver-default.common-jndi-jndi_nsp.jndi.provider.password: ''
-    integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url: nsp://localhost:9000
+    integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url: nsp://localhost:9000/
     integrationserver-default.common-jndi-jndi_nsp.jndi.provider.user: ''
-    integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password: '{AES/CBC/PKCS5Padding}{46wxBYV8qfzLxIAhHYL0Mdu2847rWOh6b/PhRshut2A=}{5bEoYxwgFs68ryOSqBXx3A==}scEZO1szb6BxLkyk794k/Q=='
+    integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password: ''
     integrationserver-default.common-jndi-jndi_nsps.jndi.provider.url: nsps://localhost:9002/
-    integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user: test
-    integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.password: '{AES/CBC/PKCS5Padding}{dMjjVVvVnYaGALlywDkmK18WmG6HJIf63cUxk3qZqbQ=}{XJrR2U4ad8ze30piSZ5t8Q==}PH1gkrVnjKacjTnjQ7hjYg=='
-    integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.url: nsp://localhost:9005
-    integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.user: test
-    integrationserver-default.common-keystores_cloudkeystore.keystore.key.password: ''
-    integrationserver-default.common-keystores_cloudkeystore.keystore.location: packages/keystorelocation/resources/CloudMigration_keystore.jks
-    integrationserver-default.common-keystores_cloudkeystore.keystore.password: '{AES/CBC/PKCS5Padding}{RrFKOZCO5Lp9HT65keMw2DTT3WxV561SdZRW+8Hb5qA=}{3hsA63VDHSYV1edilXf6hw==}kEL01llQV4Q3dFSyGSeTYA=='
-    integrationserver-default.common-keystores_cloudkeystore.keystore.type: JKS
-    integrationserver-default.common-keystores_cloudkeystore1.keystore.key.password: '{AES/CBC/PKCS5Padding}{5gavWKyxeQrTTWR749sw7w+fmrho6pnK0JIYZLtVap0=}{UP5XpI/u+RdD8wNO5/bi0Q==}iiWhEJRyxD2DTGOiwwiowQ=='
-    integrationserver-default.common-keystores_cloudkeystore1.keystore.location: packages\keystorelocation\resources\CloudMigration_keystore.jks
-    integrationserver-default.common-keystores_cloudkeystore1.keystore.password: '{AES/CBC/PKCS5Padding}{shlE+9BnRl56adTLWjuTLVhyLgejymsy91ZPNO3KQFc=}{FQ0iq4cVeRWc6rH0BvmOww==}h28iFjn38d7vdKD36+RNMA=='
-    integrationserver-default.common-keystores_cloudkeystore1.keystore.type: JKS
-    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{G9Y0vIbOPeltmb9gnOim0YY9mcH2UrqZv0HG4yc4yj0=}{0sPfNQ0Ho33wffiAgHK1Ig==}2lFKkdfQj8k3xUhCYpWc8w=='
-    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.location: C:\SoftwareAG912\common\conf\CloudMigration_keystore.jks
-    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{6NbZWd3gMAHpsxoOwJrQmdbI0u7sOOoCoFhakDDn+JM=}{gz915kWzrkm7GPXhyYfLww==}rVhVK6zjBWAgB1zklP3Vng=='
+    integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user: ''
+    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{nJYjXxrcpWUO0lfS50/J6lKpOFMYbKJCfSqmN8Cu+fU=}{7QBKjjt5VdBLAd7G9voaEQ==}n8/igPmp2vDrvcAJ2Wj3Pg=='
+    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.location: packages\keystorelocation\resources\CloudMigration_keystore.jks
+    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{J7a3Lm/kUWX2a5i430Lr3M8cKNn8q0bzp1kK1X+jBEU=}{PZfA6j2k1GnMq9qgshXqAA==}GXpDBgs0bzaeNVpW5aR7Dw=='
     integrationserver-default.common-keystores_cloudmigration_keystore.keystore.type: JKS
-    integrationserver-default.common-keystores_default_is_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{7adZfHmY5oBfoJcg4AovElpnxkMswetFQhXJiSUDXRA=}{y0/RHMPIJj6ZnDZQY0URAg==}tDh2J7tux0Kb4PthMqw2EA=='
-    integrationserver-default.common-keystores_default_is_keystore.keystore.location: C:\SoftwareAG912\common\conf\keystore.jks
-    integrationserver-default.common-keystores_default_is_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{bckFXnRzxYls9nBVK/6kSjYaWyIsEE0CJ4S6pXzTfcc=}{pVsLSbSRM425jjoNd34SaQ==}RHB2tPoEhU5MPiEJr+apsQ=='
+    integrationserver-default.common-keystores_default_is_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{bIEv5B7wxK/xNpdybU3LHTGBQ59ugZhC6zh++ZhWHSw=}{FVJ6xo7Ryqz3QvQ2twtKjg==}gijjO+YJKRfIPy9Kzc3ngg=='
+    integrationserver-default.common-keystores_default_is_keystore.keystore.location: C:\SoftwareAG103\common\conf\keystore.jks
+    integrationserver-default.common-keystores_default_is_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{IGvA63XODB6NL+t0f1YkrbF0zzCTKYKUno3HCczVCmA=}{T4ecV4mvi63R9u/IgSuy+w==}Ni6KduwBf6xuKIvLr2p9vQ=='
     integrationserver-default.common-keystores_default_is_keystore.keystore.type: JKS
-    integrationserver-default.common-keystores_is_um_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{xX5vg83uwVXguXrsC10ppuuRACUyFwHvSLVoIAR5rbs=}{5OBouUAGxKPTGJXDIaHZ+A==}5tlLL7WhBRBjUd8kyyU6aw=='
-    integrationserver-default.common-keystores_is_um_keystore.keystore.location: C:\SoftwareAG912\UniversalMessaging\server\umserver\bin\client.jks
-    integrationserver-default.common-keystores_is_um_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{KF6YnpbKiTBLcI4LyEbTdNlXsrjCgiQ5pbhnN2qQJqw=}{NifoNfZRsFOKMCLSjllwuQ==}zQDS8RCgUOX//lBSkCZxOw=='
+    integrationserver-default.common-keystores_is_um_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{Lv4GDHBm7ghib1uydIHbILAYxavnczWQSpFOY/8ZDxk=}{FLNyyOm/z6QPuO4ZBgTt4w==}pXcV0WS7BAnrBR3svXhAng=='
+    integrationserver-default.common-keystores_is_um_keystore.keystore.location: C:\SoftwareAG103\UniversalMessaging\server\umserver\bin\client.jks
+    integrationserver-default.common-keystores_is_um_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{0NHq++cQ/BGGUc48nuM3ZZ9DT/CsbAmrO9lVS4jFHfc=}{01jxp90Ow3oWp3Q3Jr9mbg==}Yj6CBFkuwPyJxFxts8EP2w=='
     integrationserver-default.common-keystores_is_um_keystore.keystore.type: JKS
-    integrationserver-default.common-keystores_keystoretest.keystore.key.password: '{AES/CBC/PKCS5Padding}{0UCykPzimcDfilCPkBDMBiZvZNGo+kg9uyjz7MpDHE8=}{oIwz98EN8Q+Ue7bIab78SQ==}r6kqaknMpMsUGIUx5+QjmA=='
-    integrationserver-default.common-keystores_keystoretest.keystore.location: packages/keytest/resources/CloudMigration_keystore.jks
-    integrationserver-default.common-keystores_keystoretest.keystore.password: '{AES/CBC/PKCS5Padding}{TwKsZvOd8nh/4Pm02vMhA80Q2PWRrK/ItNge+NOT57o=}{CzDt9E4SouhmBb1Yq/0MQg==}hgMw1MUzXmQgTnWdU/KYMQ=='
-    integrationserver-default.common-keystores_keystoretest.keystore.type: JKS
-    integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location: C:\SoftwareAG912\common\conf\CloudMigration_truststore.jks
-    integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{TYZB5VLfhn6czJm6EnVVIGDJZuPRqHVfmafP75EjySo=}{CxcBOhR9RyaQG0pfx4op0Q==}oGJlNxAFKDW87hmrPJ1dIw=='
+    integrationserver-default.common-local-users-abg.password: ''
+    integrationserver-default.common-local-users-clouduser01.password: ''
+    integrationserver-default.common-local-users-manoj.password: ''
+    integrationserver-default.common-local-users-userdev.password: ''
+    integrationserver-default.common-local-users-userexec.password: ''
+    integrationserver-default.common-local-users-usertest.password: ''
+    integrationserver-default.common-smtp.host: smtp.eur.ad.sag
+    integrationserver-default.common-smtp.portnumber: '25'
+    integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location: packages\keystorelocation\resources\CloudMigration_truststore.jks
+    integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{cZGnHbehvqDy9WHe+kxHMS+/STS/k2voYa8yFoF44+A=}{gceJth2LkMv444oCY2LfAQ==}dOLYZCClMz/cOmjMMYDNCQ=='
     integrationserver-default.common-truststores_cloudmigration_truststore.truststore.type: JKS
     integrationserver-default.common-truststores_default_is_truststore.truststore.location: C:\SoftwareAG912\common\conf\platform_truststore.jks
-    integrationserver-default.common-truststores_default_is_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{kp+QYz5MexLs8WzrcDvivjUVl2TcYd/55a0ZaXXejL8=}{OU+oAC6zY3jq54CttIu08g==}zDwBksUveBhkAW+iXHopew=='
+    integrationserver-default.common-truststores_default_is_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{qhBU7kIXdc/yhCjU0KfxeiNoT2h22RDmatxFps0lYyA=}{bvKOFAz30uMPpVJEvBQkBw==}+NiPR6uPinqD2ghuLMoMWQ=='
     integrationserver-default.common-truststores_default_is_truststore.truststore.type: JKS
     integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.location: packages\WmCloud\config\wmcloud_truststore.jks
-    integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{XxeVAnIGiENiezFWwpVRdzGGuS5NyZI5SS4R30ngxmo=}{cM1I2HJ60BZzjYxMNrEiAQ==}Sy4vCPPQvm92Bm7fVZwtPw=='
+    integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{bL+V4Yt9me7xBQO1VT6OMkzv077WGHGhgocC2MkiHlA=}{IY992qGnrWQthCIUthRjoA==}/GEvLGT8J7aBvdZt9ac1jQ=='
     integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.type: JKS
-    integrationserver-default.common-truststores_is_um_truststore.truststore.location: C:\SoftwareAG912\UniversalMessaging\server\umserver\bin\nirvanacacerts.jks
-    integrationserver-default.common-truststores_is_um_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{Ua556LAz+35kjYh8WoGms7m9YUCK5cMzU3Hqk19YgTU=}{coYKsTK3/pN2MvT1RQlzHA==}V+Oy9zgz3F2QkOJjS0NZdg=='
+    integrationserver-default.common-truststores_is_um_truststore.truststore.location: C:\SoftwareAG103\UniversalMessaging\server\umserver\bin\nirvanacacerts.jks
+    integrationserver-default.common-truststores_is_um_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{eJrPvweTDLz19x2MCvUOmzWFEvCF4Y+BW96G5ximI2c=}{IihnCsNlRJQm3R5MScrGoA==}HHaiWQZCQXXR637hJdpegg=='
     integrationserver-default.common-truststores_is_um_truststore.truststore.type: JKS
-    integrationserver-default.common-truststores_trustoretest.truststore.location: packages\keystorelocation\resources\CloudMigration_truststore.jks
-    integrationserver-default.common-truststores_trustoretest.truststore.password: '{AES/CBC/PKCS5Padding}{IuUM9quFqdK3hNqPvs0/tQxHXQn3/OE1LVh/OvJpQo4=}{E1iFMukYURzDiP0qvodllA==}v/afx+XG4cHmBP+44fgzLA=='
-    integrationserver-default.common-truststores_trustoretest.truststore.type: JKS
-    integrationserver-default.common-truststores_trustoretest123.truststore.location: packages/keytest/resources/CloudMigration_truststore.jks
-    integrationserver-default.common-truststores_trustoretest123.truststore.password: '{AES/CBC/PKCS5Padding}{gNWTAQbNFQrSKbBmC2HJYr/NEQg32u7PflEsSffTow4=}{EWBKM4dBVHJRo1XFnXc0sg==}dXRDJNTE36kqnYvtrCcp5w=='
-    integrationserver-default.common-truststores_trustoretest123.truststore.type: JKS
     integrationserver-default.common-vars-cloudmigration.variable.$: 'Hello Cloud
       Migration: Global variable'
-    integrationserver-default.common-wmmessaging-test_um_auth.messaging.provider.auth.password: '*****'
-    integrationserver-default.common-wmmessaging-test_um_auth.messaging.provider.auth.user: test
-    integrationserver-default.common-wmmessaging-test_um_auth.messaging.provider.url: nsp://localhost:9005
-    integrationserver-default.common-wmmessaging-test_um_noauth.messaging.provider.auth.password: '*****'
-    integrationserver-default.common-wmmessaging-test_um_noauth.messaging.provider.auth.user: test
-    integrationserver-default.common-wmmessaging-test_um_noauth.messaging.provider.url: nsp://localhost:9000
-    integrationserver-default.common-wmmessaging-testwebmethodsmessagingsettings.messaging.provider.auth.password: '*****'
-    integrationserver-default.common-wmmessaging-testwebmethodsmessagingsettings.messaging.provider.auth.user: test
-    integrationserver-default.common-wmmessaging-testwebmethodsmessagingsettings.messaging.provider.url: nsp://localhost:9000
+    integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.auth.password: '*****'
+    integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.auth.user: Administrator
+    integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.url: nsp://localhost:9000
+    integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.auth.password: '*****'
+    integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.auth.user: Administrator
+    integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.url: nsps://localhost:9002
+    integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.auth.password: '*****'
+    integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.auth.user: Administrator
+    integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.url: nhps://localhost:9003/
     integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.@alias: WebServicesConsumerHTTP01
     integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.description: WebServicesConsumerHTTP01
+      New Desc
     integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.executeacl: Internal
     integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.auth.@type: Basic
     integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.host: VMSIQACLOUD02
@@ -101,11 +83,6 @@ environments:
     integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.host: VMSIQACLOUD02
     integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.port: '5557'
     integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.protocol: HTTPS
-    integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.@alias: testProvWIthoutKeyTrusStore
-    integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.provider.description: testProvWIthoutKeyTrusStore
-    integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.provider.transport.host: localhost
-    integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.provider.transport.port: '5555'
-    integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.provider.transport.protocol: HTTP
     integrationserver-default.is-provider-endpoints-http-webservicesproviderhttp01.@alias: WebServicesProviderHTTP01
     integrationserver-default.is-provider-endpoints-http-webservicesproviderhttp01.provider.description: WebServicesProviderHTTP01
     integrationserver-default.is-provider-endpoints-http-webservicesproviderhttp01.provider.transport.host: VMSIQACLOUD02
@@ -128,7 +105,7 @@ environments:
     integrationserver-default.is-provider-endpoints-https-webservicesproviderhttps01.provider.wssecurity.timetolive: '60'
     integrationserver-default.is-provider-endpoints-https-webservicesproviderhttps01.provider.wssecurity.truststorealias: CloudMigration_truststore
     integrationserver-default.is-resources.resources.serverthreadpool.availablethreadswarningthreshold: '15'
-    integrationserver-default.is-resources.resources.serverthreadpool.maximumthreads: '75'
+    integrationserver-default.is-resources.resources.serverthreadpool.maximumthreads: '85'
     integrationserver-default.is-resources.resources.serverthreadpool.minimumthreads: '10'
     integrationserver-default.is-resources.resources.serverthreadpool.schedulerthreadthrottle: '75'
     integrationserver-default.is-resources.resources.session.availablestatefulsessionwarningthreshold: '25'
@@ -144,18 +121,187 @@ environments:
     integrationserver-default.is-resources.storesettings.xarecoverystore.initialstoresize: '10'
     integrationserver-default.is-resources.storesettings.xarecoverystore.storelocation: XAStore
 layers:
-  localhost-OSGI-IS_default-layer:
-    templates: localhost-OSGI-IS_default-template
+  IS-layer:
+    templates: IS-template
 provision:
   default:
-    localhost-OSGI-IS_default-layer: ${nodes}
+    IS-layer: ${nodes}
 templates:
-  localhost-OSGI-IS_default-template:
+  IS-template:
     products:
       integrationServer:
         default:
           configuration:
             integrationServer-default:
+              COMMON-LOCAL-USERS:
+                COMMON-LOCAL-USERS-manoj:
+                  '@id': manoj
+                  Password: ${integrationserver-default.common-local-users-manoj.password}
+                  Enabled: 'true'
+                  ExtendedProperties:
+                    Property:
+                    - '@name': AllowDigestAuthentication
+                      $: 'false'
+                    - '@name': Groups
+                      $: Everybody,TrialUser
+                COMMON-LOCAL-USERS-CloudUser01:
+                  '@id': CloudUser01
+                  Password: ${integrationserver-default.common-local-users-clouduser01.password}
+                  Enabled: 'true'
+                  ExtendedProperties:
+                    Property:
+                    - '@name': AllowDigestAuthentication
+                      $: 'false'
+                    - '@name': Groups
+                      $: CloudGroup01,Everybody
+                COMMON-LOCAL-USERS-userTest:
+                  '@id': userTest
+                  Password: ${integrationserver-default.common-local-users-usertest.password}
+                  Enabled: 'true'
+                  ExtendedProperties:
+                    Property:
+                    - '@name': AllowDigestAuthentication
+                      $: 'false'
+                    - '@name': Groups
+                      $: Everybody,testGroup
+                COMMON-LOCAL-USERS-abg:
+                  '@id': abg
+                  Password: ${integrationserver-default.common-local-users-abg.password}
+                  Enabled: 'true'
+                  ExtendedProperties:
+                    Property:
+                    - '@name': AllowDigestAuthentication
+                      $: 'false'
+                    - '@name': Groups
+                      $: Everybody
+                COMMON-LOCAL-USERS-userDev:
+                  '@id': userDev
+                  Password: ${integrationserver-default.common-local-users-userdev.password}
+                  Enabled: 'true'
+                  ExtendedProperties:
+                    Property:
+                    - '@name': AllowDigestAuthentication
+                      $: 'false'
+                    - '@name': Groups
+                      $: Everybody,devGroup
+                COMMON-LOCAL-USERS-userExec:
+                  '@id': userExec
+                  Password: ${integrationserver-default.common-local-users-userexec.password}
+                  Enabled: 'true'
+                  ExtendedProperties:
+                    Property:
+                    - '@name': AllowDigestAuthentication
+                      $: 'false'
+                    - '@name': Groups
+                      $: Everybody,execGroup
+              IS-RESOURCES:
+                IS-RESOURCES:
+                  Resources:
+                    ServerThreadPool:
+                      MaximumThreads: ${integrationserver-default.is-resources.resources.serverthreadpool.maximumthreads}
+                      MinimumThreads: ${integrationserver-default.is-resources.resources.serverthreadpool.minimumthreads}
+                      AvailableThreadsWarningThreshold: ${integrationserver-default.is-resources.resources.serverthreadpool.availablethreadswarningthreshold}
+                      SchedulerThreadThrottle: ${integrationserver-default.is-resources.resources.serverthreadpool.schedulerthreadthrottle}
+                    Session:
+                      SessionTimeout: ${integrationserver-default.is-resources.resources.session.sessiontimeout}
+                      EnableStatefulSessionLimit: ${integrationserver-default.is-resources.resources.session.enablestatefulsessionlimit}
+                      MaximumStatefulSessions: ${integrationserver-default.is-resources.resources.session.maximumstatefulsessions}
+                      AvailableStatefulSessionWarningThreshold: ${integrationserver-default.is-resources.resources.session.availablestatefulsessionwarningthreshold}
+                  StoreSettings:
+                    DefaultDocumentStore:
+                      StoreLocation: ${integrationserver-default.is-resources.storesettings.defaultdocumentstore.storelocation}
+                      InitialStoreSize: ${integrationserver-default.is-resources.storesettings.defaultdocumentstore.initialstoresize}
+                    TriggerDocumentStore:
+                      StoreLocation: ${integrationserver-default.is-resources.storesettings.triggerdocumentstore.storelocation}
+                      InitialStoreSize: ${integrationserver-default.is-resources.storesettings.triggerdocumentstore.initialstoresize}
+                      User: ${integrationserver-default.is-resources.storesettings.triggerdocumentstore.user}
+                    OutboundDocumentStore: null
+                    XARecoverystore:
+                      StoreLocation: ${integrationserver-default.is-resources.storesettings.xarecoverystore.storelocation}
+                      InitialStoreSize: ${integrationserver-default.is-resources.storesettings.xarecoverystore.initialstoresize}
+                    BrokerConfigured: ${integrationserver-default.is-resources.storesettings.brokerconfigured}
+              IS-ACLS:
+                IS-ACLS-execACL:
+                  '@name': execACL
+                  Allow:
+                    Group: local_execGroup
+                  Deny:
+                    Group: none@--@
+                  ExtendedProperties:
+                    Property:
+                    - '@name': ResultingLocalUsers
+                      $: Administrator,userExec
+                IS-ACLS-TrialUserACL:
+                  '@name': TrialUserACL
+                  Allow:
+                    Group: local_TrialUser
+                  Deny:
+                    Group: none@--@
+                  ExtendedProperties:
+                    Property:
+                    - '@name': ResultingLocalUsers
+                      $: manoj
+                IS-ACLS-testACL:
+                  '@name': testACL
+                  Allow:
+                    Group: local_testGroup
+                  Deny:
+                    Group: none@--@
+                  ExtendedProperties:
+                    Property:
+                    - '@name': ResultingLocalUsers
+                      $: Administrator,userTest
+                IS-ACLS-Cloud01:
+                  '@name': Cloud01
+                  Allow:
+                    Group:
+                    - local_Administrators
+                    - local_CloudGroup01
+                  Deny:
+                    Group: none@--@
+                  ExtendedProperties:
+                    Property:
+                    - '@name': ResultingLocalUsers
+                      $: Administrator,CloudUser01
+                IS-ACLS-devACL:
+                  '@name': devACL
+                  Allow:
+                    Group:
+                    - local_Administrators
+                    - local_devGroup
+                  Deny:
+                    Group: none@--@
+                  ExtendedProperties:
+                    Property:
+                    - '@name': ResultingLocalUsers
+                      $: Administrator,userDev
+              IS-GROUPS:
+                IS-GROUPS-local_testGroup:
+                  '@name': local_testGroup
+                  Members:
+                    User:
+                    - Administrator
+                    - userTest
+                IS-GROUPS-local_devGroup:
+                  '@name': local_devGroup
+                  Members:
+                    User:
+                    - Administrator
+                    - userDev
+                IS-GROUPS-local_CloudGroup01:
+                  '@name': local_CloudGroup01
+                  Members:
+                    User: CloudUser01
+                IS-GROUPS-local_execGroup:
+                  '@name': local_execGroup
+                  Members:
+                    User:
+                    - Administrator
+                    - userExec
+                IS-GROUPS-local_TrialUser:
+                  '@name': local_TrialUser
+                  Members:
+                    User: manoj
               COMMON-TRUSTSTORES:
                 COMMON-TRUSTSTORES_DEFAULT_IS_TRUSTSTORE:
                   Truststore:
@@ -165,41 +311,6 @@ templates:
                     Provider: SUN
                     Location: ${integrationserver-default.common-truststores_default_is_truststore.truststore.location}
                     Password: ${integrationserver-default.common-truststores_default_is_truststore.truststore.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
-                        $: 'false'
-                COMMON-TRUSTSTORES_trustoretest123:
-                  Truststore:
-                    '@alias': trustoretest123
-                    Type: ${integrationserver-default.common-truststores_trustoretest123.truststore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-truststores_trustoretest123.truststore.location}
-                    Password: ${integrationserver-default.common-truststores_trustoretest123.truststore.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
-                        $: 'true'
-                      - '@name': certficateAliases
-                        $: ssos
-                COMMON-TRUSTSTORES_CloudMigration_truststore:
-                  Truststore:
-                    '@alias': CloudMigration_truststore
-                    Type: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location}
-                    Password: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
-                        $: 'false'
-                COMMON-TRUSTSTORES_TrustoreTest:
-                  Truststore:
-                    '@alias': TrustoreTest
-                    Type: ${integrationserver-default.common-truststores_trustoretest.truststore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-truststores_trustoretest.truststore.location}
-                    Password: ${integrationserver-default.common-truststores_trustoretest.truststore.password}
                     ExtendedProperties:
                       Property:
                       - '@name': isLoaded
@@ -217,7 +328,22 @@ templates:
                     ExtendedProperties:
                       Property:
                       - '@name': isLoaded
-                        $: 'false'
+                        $: 'true'
+                      - '@name': certficateAliases
+                        $: localhost,127.0.0.1,nirvana client
+                COMMON-TRUSTSTORES_CloudMigration_truststore:
+                  Truststore:
+                    '@alias': CloudMigration_truststore
+                    Type: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.type}
+                    Provider: SUN
+                    Location: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location}
+                    Password: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password}
+                    ExtendedProperties:
+                      Property:
+                      - '@name': isLoaded
+                        $: 'true'
+                      - '@name': certficateAliases
+                        $: ssos
                 COMMON-TRUSTSTORES_DEFAULT_WMCLOUD_TRUSTSTORE:
                   Truststore:
                     '@alias': DEFAULT_WMCLOUD_TRUSTSTORE
@@ -231,180 +357,13 @@ templates:
                       - '@name': isLoaded
                         $: 'true'
                       - '@name': certficateAliases
-                        $: geotrust global ca,geotrust primary certification authority
-                          - g3,geotrust sha256 ssl ca (geotrust primary certification
-                          authority - g3),geotrust ssl ca - g3 (geotrust global ca),integrationlive_sso,seclab,thawte
-                          primary root ca,thawte ssl ca - g2,webmcloudwild,webmethodscloudwild,webmethodscloudwild_de,webmethodscloudwild_eu
-              IS-GROUPS:
-                IS-GROUPS-execGroup:
-                  '@name': execGroup
-                  Members:
-                    User:
-                    - Administrator
-                    - userExec
-                IS-GROUPS-TrialUser:
-                  '@name': TrialUser
-                  Members:
-                    User: manoj
-                IS-GROUPS-testGroup:
-                  '@name': testGroup
-                  Members:
-                    User:
-                    - Administrator
-                    - userTest
-                IS-GROUPS-devGroup:
-                  '@name': devGroup
-                  Members:
-                    User:
-                    - Administrator
-                    - userDev
-                IS-GROUPS-CloudGroup01:
-                  '@name': CloudGroup01
-                  Members:
-                    User:
-                    - CloudUser01
-                    - abg
-                    - manoj
-              IS-CONSUMER-ENDPOINTS:
-                IS-CONSUMER-ENDPOINTS-HTTP-WebServicesConsumerHTTP01:
-                  '@alias': ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.@alias}
-                  Consumer:
-                    Description: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.description}
-                    ExecuteACL: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.executeacl}
-                    Transport:
-                      Protocol: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.protocol}
-                      Host: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.host}
-                      Port: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.port}
-                      Auth:
-                        '@type': ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.auth.@type}
-                    WSSecurity: null
-                IS-CONSUMER-ENDPOINTS-HTTPS-WebServicesConsumerHTTPS01:
-                  '@alias': ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.@alias}
-                  Consumer:
-                    Description: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.description}
-                    ExecuteACL: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.executeacl}
-                    Transport:
-                      Protocol: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.protocol}
-                      Host: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.host}
-                      Port: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.port}
-                      Auth:
-                        '@type': ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.auth.@type}
-                    WSSecurity: null
+                        $: digicert global root ca,geotrust global ca,geotrust primary
+                          certification authority - g3,geotrust rsa ca 2018 (digicert
+                          global root ca),geotrust sha256 ssl ca (geotrust primary
+                          certification authority - g3),geotrust ssl ca - g3 (geotrust
+                          global ca),geotrust ssl ca - g3 (geotrust global ca)_intermediate,integrationlive_sso,saglive.com,seclab,thawte
+                          primary root ca,thawte ssl ca - g2,webmcloudwild_new,webmcloudwild_new2,webmethodscloud_private,webmethodscloudwild,webmethodscloudwild_de,webmethodscloudwild_de_new,webmethodscloudwild_de_new2,webmethodscloudwild_eu,webmethodscloudwild_eu_new,webmethodscloudwild_eu_new2,webmethodscloudwild_new,webmethodscloudwild_new2
               COMMON-JMS:
-                COMMON-JMS-JMS_TEST_AUTH:
-                  JMS:
-                    '@alias': JMS_TEST_AUTH
-                    Description: JMS_TEST_AUTH
-                    Enabled: 'true'
-                    TransactionType: NO_TRANSACTION
-                    ClientId: JMS_TEST_AUTH
-                    Provider:
-                      '@type': JNDI
-                      JNDIAlias: JNDI_TEST_AUTH
-                      JNDIConnectionFactoryName: CFTest
-                    User: ${integrationserver-default.common-jms-jms_test_auth.jms.user}
-                    Password: ${integrationserver-default.common-jms-jms_test_auth.jms.password}
-                    MaxRetryAttempts: '0'
-                    RetryInterval: '1000'
-                    Caching: DISABLED
-                    ExtendedProperties:
-                      Property:
-                      - '@name': jndi_connectionFactoryUpdateType
-                        $: NONE
-                      - '@name': jndi_connectionFactoryPollingInterval
-                        $: '0'
-                      - '@name': jndi_enableFollowTheMaster
-                        $: 'true'
-                      - '@name': classLoader
-                        $: INTEGRATION_SERVER
-                      - '@name': csqSize
-                        $: '-1'
-                      - '@name': csqDrainInOrder
-                        $: 'true'
-                      - '@name': optTempQueueCreate
-                        $: 'true'
-                      - '@name': allowReplyToConsumer
-                        $: 'false'
-                      - '@name': manageDestinations
-                        $: 'true'
-                      - '@name': allowNewConnectionPerTrigger
-                        $: 'false'
-                COMMON-JMS-QCF_IS_JMS_CONNECTION:
-                  JMS:
-                    '@alias': QCF_IS_JMS_CONNECTION
-                    Description: QCF_IS_JMS_CONNECTION
-                    Enabled: 'true'
-                    TransactionType: NO_TRANSACTION
-                    ClientId: ''
-                    Provider:
-                      '@type': JNDI
-                      JNDIAlias: JNDI_NSP
-                      JNDIConnectionFactoryName: QCF
-                    User: ${integrationserver-default.common-jms-qcf_is_jms_connection.jms.user}
-                    Password: ${integrationserver-default.common-jms-qcf_is_jms_connection.jms.password}
-                    MaxRetryAttempts: '0'
-                    RetryInterval: '1000'
-                    Caching: DISABLED
-                    ExtendedProperties:
-                      Property:
-                      - '@name': jndi_connectionFactoryUpdateType
-                        $: NONE
-                      - '@name': jndi_connectionFactoryPollingInterval
-                        $: '0'
-                      - '@name': jndi_enableFollowTheMaster
-                        $: 'true'
-                      - '@name': classLoader
-                        $: INTEGRATION_SERVER
-                      - '@name': csqSize
-                        $: '-1'
-                      - '@name': csqDrainInOrder
-                        $: 'true'
-                      - '@name': optTempQueueCreate
-                        $: 'true'
-                      - '@name': allowReplyToConsumer
-                        $: 'false'
-                      - '@name': manageDestinations
-                        $: 'true'
-                      - '@name': allowNewConnectionPerTrigger
-                        $: 'false'
-                COMMON-JMS-TCFNonSharedDurable_IS_JMS_CONNECTION:
-                  JMS:
-                    '@alias': TCFNonSharedDurable_IS_JMS_CONNECTION
-                    Description: TCFNonSharedDurable_IS_JMS_CONNECTION
-                    Enabled: 'true'
-                    TransactionType: NO_TRANSACTION
-                    ClientId: ''
-                    Provider:
-                      '@type': JNDI
-                      JNDIAlias: DEFAULT_IS_JNDI_PROVIDER
-                      JNDIConnectionFactoryName: TCFNonSharedDurable
-                    User: ${integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user}
-                    Password: ${integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password}
-                    MaxRetryAttempts: '0'
-                    RetryInterval: '1000'
-                    Caching: DISABLED
-                    ExtendedProperties:
-                      Property:
-                      - '@name': jndi_connectionFactoryUpdateType
-                        $: NONE
-                      - '@name': jndi_connectionFactoryPollingInterval
-                        $: '0'
-                      - '@name': jndi_enableFollowTheMaster
-                        $: 'true'
-                      - '@name': classLoader
-                        $: INTEGRATION_SERVER
-                      - '@name': csqSize
-                        $: '-1'
-                      - '@name': csqDrainInOrder
-                        $: 'true'
-                      - '@name': optTempQueueCreate
-                        $: 'true'
-                      - '@name': allowReplyToConsumer
-                        $: 'false'
-                      - '@name': manageDestinations
-                        $: 'true'
-                      - '@name': allowNewConnectionPerTrigger
-                        $: 'false'
                 COMMON-JMS-CFSharedDurable_IS_JMS_CONNECTION:
                   JMS:
                     '@alias': CFSharedDurable_IS_JMS_CONNECTION
@@ -414,7 +373,7 @@ templates:
                     ClientId: ''
                     Provider:
                       '@type': JNDI
-                      JNDIAlias: JNDI_NSP
+                      JNDIAlias: JNDI_NSPS
                       JNDIConnectionFactoryName: CFSharedDurable
                     User: ${integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user}
                     Password: ${integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password}
@@ -519,18 +478,57 @@ templates:
                         $: 'true'
                       - '@name': allowNewConnectionPerTrigger
                         $: 'false'
-                COMMON-JMS-IS_JMS_CONNECTION_NO_AUTH:
+                COMMON-JMS-QCF_IS_JMS_CONNECTION:
                   JMS:
-                    '@alias': IS_JMS_CONNECTION_NO_AUTH
-                    Description: IS_JMS_CONNECTION_NO_AUTH
+                    '@alias': QCF_IS_JMS_CONNECTION
+                    Description: QCF_IS_JMS_CONNECTION
                     Enabled: 'true'
                     TransactionType: NO_TRANSACTION
-                    ClientId: IS_JMS_CONNECTION_NO_AUTH
+                    ClientId: ''
                     Provider:
                       '@type': JNDI
                       JNDIAlias: JNDI_NSP
-                      JNDIConnectionFactoryName: EventFactory
-                    User: ${integrationserver-default.common-jms-is_jms_connection_no_auth.jms.user}
+                      JNDIConnectionFactoryName: QCF
+                    User: ${integrationserver-default.common-jms-qcf_is_jms_connection.jms.user}
+                    Password: ${integrationserver-default.common-jms-qcf_is_jms_connection.jms.password}
+                    MaxRetryAttempts: '0'
+                    RetryInterval: '1000'
+                    Caching: DISABLED
+                    ExtendedProperties:
+                      Property:
+                      - '@name': jndi_connectionFactoryUpdateType
+                        $: NONE
+                      - '@name': jndi_connectionFactoryPollingInterval
+                        $: '0'
+                      - '@name': jndi_enableFollowTheMaster
+                        $: 'true'
+                      - '@name': classLoader
+                        $: INTEGRATION_SERVER
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': optTempQueueCreate
+                        $: 'true'
+                      - '@name': allowReplyToConsumer
+                        $: 'false'
+                      - '@name': manageDestinations
+                        $: 'true'
+                      - '@name': allowNewConnectionPerTrigger
+                        $: 'false'
+                COMMON-JMS-TCFNonSharedDurable_IS_JMS_CONNECTION:
+                  JMS:
+                    '@alias': TCFNonSharedDurable_IS_JMS_CONNECTION
+                    Description: TCFNonSharedDurable_IS_JMS_CONNECTION
+                    Enabled: 'true'
+                    TransactionType: NO_TRANSACTION
+                    ClientId: ''
+                    Provider:
+                      '@type': JNDI
+                      JNDIAlias: DEFAULT_IS_JNDI_PROVIDER
+                      JNDIConnectionFactoryName: TCFNonSharedDurable
+                    User: ${integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user}
+                    Password: ${integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password}
                     MaxRetryAttempts: '0'
                     RetryInterval: '1000'
                     Caching: DISABLED
@@ -594,6 +592,68 @@ templates:
                         $: 'true'
                       - '@name': allowNewConnectionPerTrigger
                         $: 'false'
+              IS-CONSUMER-ENDPOINTS:
+                IS-CONSUMER-ENDPOINTS-HTTP-WebServicesConsumerHTTP01:
+                  '@alias': ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.@alias}
+                  Consumer:
+                    Description: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.description}
+                    ExecuteACL: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.executeacl}
+                    Transport:
+                      Protocol: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.protocol}
+                      Host: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.host}
+                      Port: ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.port}
+                      Auth:
+                        '@type': ${integrationserver-default.is-consumer-endpoints-http-webservicesconsumerhttp01.consumer.transport.auth.@type}
+                    WSSecurity: null
+                IS-CONSUMER-ENDPOINTS-HTTPS-WebServicesConsumerHTTPS01:
+                  '@alias': ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.@alias}
+                  Consumer:
+                    Description: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.description}
+                    ExecuteACL: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.executeacl}
+                    Transport:
+                      Protocol: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.protocol}
+                      Host: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.host}
+                      Port: ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.port}
+                      Auth:
+                        '@type': ${integrationserver-default.is-consumer-endpoints-https-webservicesconsumerhttps01.consumer.transport.auth.@type}
+                    WSSecurity: null
+              COMMON-JNDI:
+                COMMON-JNDI-JNDI_NHPS:
+                  JNDI:
+                    '@alias': JNDI_NHPS
+                    Description: JNDI_NHPS
+                    Provider:
+                      URL: ${integrationserver-default.common-jndi-jndi_nhps.jndi.provider.url}
+                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+                      User: ${integrationserver-default.common-jndi-jndi_nhps.jndi.provider.user}
+                      Password: ${integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password}
+                COMMON-JNDI-JNDI_NHP:
+                  JNDI:
+                    '@alias': JNDI_NHP
+                    Description: JNDI_NHP
+                    Provider:
+                      URL: ${integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url}
+                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+                      User: ${integrationserver-default.common-jndi-jndi_nhp.jndi.provider.user}
+                      Password: ${integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password}
+                COMMON-JNDI-JNDI_NSPS:
+                  JNDI:
+                    '@alias': JNDI_NSPS
+                    Description: JNDI NSPS Provider Alias
+                    Provider:
+                      URL: ${integrationserver-default.common-jndi-jndi_nsps.jndi.provider.url}
+                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+                      User: ${integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user}
+                      Password: ${integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password}
+                COMMON-JNDI-JNDI_NSP:
+                  JNDI:
+                    '@alias': JNDI_NSP
+                    Description: JNDI_NSP
+                    Provider:
+                      URL: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url}
+                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+                      User: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.user}
+                      Password: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.password}
               IS-PROVIDER-ENDPOINTS:
                 IS-PROVIDER-ENDPOINTS-HTTPS-WebServicesProviderHTTPS01:
                   '@alias': ${integrationserver-default.is-provider-endpoints-https-webservicesproviderhttps01.@alias}
@@ -609,15 +669,6 @@ templates:
                       TimeStampPrecision: ${integrationserver-default.is-provider-endpoints-https-webservicesproviderhttps01.provider.wssecurity.timestampprecision}
                       TimeToLive: ${integrationserver-default.is-provider-endpoints-https-webservicesproviderhttps01.provider.wssecurity.timetolive}
                       MaxSkew: ${integrationserver-default.is-provider-endpoints-https-webservicesproviderhttps01.provider.wssecurity.maxskew}
-                IS-PROVIDER-ENDPOINTS-HTTP-testProvWIthoutKeyTrusStore:
-                  '@alias': ${integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.@alias}
-                  Provider:
-                    Description: ${integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.provider.description}
-                    Transport:
-                      Protocol: ${integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.provider.transport.protocol}
-                      Host: ${integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.provider.transport.host}
-                      Port: ${integrationserver-default.is-provider-endpoints-http-testprovwithoutkeytrusstore.provider.transport.port}
-                    WSSecurity: null
                 IS-PROVIDER-ENDPOINTS-HTTP-WebServicesProviderHTTP01:
                   '@alias': ${integrationserver-default.is-provider-endpoints-http-webservicesproviderhttp01.@alias}
                   Provider:
@@ -633,23 +684,98 @@ templates:
                       TimeStampPrecision: ${integrationserver-default.is-provider-endpoints-http-webservicesproviderhttp01.provider.wssecurity.timestampprecision}
                       TimeToLive: ${integrationserver-default.is-provider-endpoints-http-webservicesproviderhttp01.provider.wssecurity.timetolive}
                       MaxSkew: ${integrationserver-default.is-provider-endpoints-http-webservicesproviderhttp01.provider.wssecurity.maxskew}
-              COMMON-KEYSTORES:
-                COMMON-KEYSTORES_IS_UM_KEYSTORE:
-                  Keystore:
-                    '@alias': IS_UM_KEYSTORE
-                    Description: IS_UM_KEYSTORE
-                    Type: ${integrationserver-default.common-keystores_is_um_keystore.keystore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-keystores_is_um_keystore.keystore.location}
-                    Password: ${integrationserver-default.common-keystores_is_um_keystore.keystore.password}
-                    HSMBased: 'false'
-                    Key:
-                      '@alias': nirvana client
-                      Password: ${integrationserver-default.common-keystores_is_um_keystore.keystore.key.password}
+              COMMON-WMMESSAGING:
+                COMMON-WMMESSAGING-SECURE_IS_UM_CONNECTION:
+                  Messaging:
+                    '@alias': SECURE_IS_UM_CONNECTION
+                    Description: SECURE_IS_UM_CONNECTION
+                    ClientPrefix: SSLClient
+                    ShareClientPrefix: 'false'
+                    Enabled: 'false'
+                    Provider:
+                      '@type': UM
+                      URL: ${integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.url}
+                      MaxRetryAttempts: '5'
+                      RetryInterval: '0'
+                      Auth:
+                        '@type': basic
+                        User: ${integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.auth.user}
+                        Password: ${integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.auth.password}
                     ExtendedProperties:
                       Property:
-                      - '@name': isLoaded
+                      - '@name': useCSQ
+                        $: 'true'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': enableRequestReply
+                        $: 'true'
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': um_followTheMasterForSubscribe
                         $: 'false'
+                      - '@name': um_followTheMasterForPublish
+                        $: 'true'
+                COMMON-WMMESSAGING-SECURE_NHPS_IS_UM_CONNECTION:
+                  Messaging:
+                    '@alias': SECURE_NHPS_IS_UM_CONNECTION
+                    Description: SECURE_NHPS_IS_UM_CONNECTION
+                    ClientPrefix: SECURE_NHPS_IS_UM_CONNECTION
+                    ShareClientPrefix: 'false'
+                    Enabled: 'false'
+                    Provider:
+                      '@type': UM
+                      URL: ${integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.url}
+                      MaxRetryAttempts: '5'
+                      RetryInterval: '0'
+                      Auth:
+                        '@type': basic
+                        User: ${integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.auth.user}
+                        Password: ${integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.auth.password}
+                    ExtendedProperties:
+                      Property:
+                      - '@name': useCSQ
+                        $: 'true'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': enableRequestReply
+                        $: 'true'
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': um_followTheMasterForSubscribe
+                        $: 'false'
+                      - '@name': um_followTheMasterForPublish
+                        $: 'true'
+                COMMON-WMMESSAGING-Basic_IS_JMS_CONNECTION:
+                  Messaging:
+                    '@alias': Basic_IS_JMS_CONNECTION
+                    Description: Basic_IS_JMS_CONNECTION
+                    ClientPrefix: Basic_IS_JMS_CONNECTION
+                    ShareClientPrefix: 'false'
+                    Enabled: 'true'
+                    Provider:
+                      '@type': UM
+                      URL: ${integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.url}
+                      MaxRetryAttempts: '5'
+                      RetryInterval: '0'
+                      Auth:
+                        '@type': basic
+                        User: ${integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.auth.user}
+                        Password: ${integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.auth.password}
+                    ExtendedProperties:
+                      Property:
+                      - '@name': useCSQ
+                        $: 'true'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': enableRequestReply
+                        $: 'true'
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': um_followTheMasterForSubscribe
+                        $: 'false'
+                      - '@name': um_followTheMasterForPublish
+                        $: 'true'
+              COMMON-KEYSTORES:
                 COMMON-KEYSTORES_CloudMigration_keystore:
                   Keystore:
                     '@alias': CloudMigration_keystore
@@ -664,33 +790,19 @@ templates:
                     ExtendedProperties:
                       Property:
                       - '@name': isLoaded
-                        $: 'false'
-                COMMON-KEYSTORES_keystoretest:
-                  Keystore:
-                    '@alias': keystoretest
-                    Type: ${integrationserver-default.common-keystores_keystoretest.keystore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-keystores_keystoretest.keystore.location}
-                    Password: ${integrationserver-default.common-keystores_keystoretest.keystore.password}
-                    HSMBased: 'false'
-                    Key:
-                      '@alias': ssos_keystore
-                      Password: ${integrationserver-default.common-keystores_keystoretest.keystore.key.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
                         $: 'true'
-                COMMON-KEYSTORES_Cloudkeystore1:
+                COMMON-KEYSTORES_IS_UM_KEYSTORE:
                   Keystore:
-                    '@alias': Cloudkeystore1
-                    Type: ${integrationserver-default.common-keystores_cloudkeystore1.keystore.type}
+                    '@alias': IS_UM_KEYSTORE
+                    Description: IS_UM_KEYSTORE
+                    Type: ${integrationserver-default.common-keystores_is_um_keystore.keystore.type}
                     Provider: SUN
-                    Location: ${integrationserver-default.common-keystores_cloudkeystore1.keystore.location}
-                    Password: ${integrationserver-default.common-keystores_cloudkeystore1.keystore.password}
+                    Location: ${integrationserver-default.common-keystores_is_um_keystore.keystore.location}
+                    Password: ${integrationserver-default.common-keystores_is_um_keystore.keystore.password}
                     HSMBased: 'false'
                     Key:
-                      '@alias': ssos_keystore
-                      Password: ${integrationserver-default.common-keystores_cloudkeystore1.keystore.key.password}
+                      '@alias': nirvana client
+                      Password: ${integrationserver-default.common-keystores_is_um_keystore.keystore.key.password}
                     ExtendedProperties:
                       Property:
                       - '@name': isLoaded
@@ -710,332 +822,19 @@ templates:
                     ExtendedProperties:
                       Property:
                       - '@name': isLoaded
-                        $: 'false'
-                COMMON-KEYSTORES_Cloudkeystore:
-                  Keystore:
-                    '@alias': Cloudkeystore
-                    Type: ${integrationserver-default.common-keystores_cloudkeystore.keystore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-keystores_cloudkeystore.keystore.location}
-                    Password: ${integrationserver-default.common-keystores_cloudkeystore.keystore.password}
-                    HSMBased: 'false'
-                    Key:
-                      '@alias': ssos_keystore
-                      Password: ${integrationserver-default.common-keystores_cloudkeystore.keystore.key.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
                         $: 'true'
-              COMMON-LOCAL-USERS:
-                COMMON-LOCAL-USERS-abg:
-                  '@id': abg
-                  Enabled: 'true'
-                  ExtendedProperties:
-                    Property:
-                    - '@name': AllowDigestAuthentication
-                      $: 'false'
-                    - '@name': Groups
-                      $: CloudGroup01,Everybody
-                COMMON-LOCAL-USERS-userDev:
-                  '@id': userDev
-                  Enabled: 'true'
-                  ExtendedProperties:
-                    Property:
-                    - '@name': AllowDigestAuthentication
-                      $: 'false'
-                    - '@name': Groups
-                      $: Developers,Everybody,devGroup
-                COMMON-LOCAL-USERS-manoj:
-                  '@id': manoj
-                  Enabled: 'true'
-                  ExtendedProperties:
-                    Property:
-                    - '@name': AllowDigestAuthentication
-                      $: 'false'
-                    - '@name': Groups
-                      $: CloudGroup01,Everybody,Replicators,TrialUser
-                COMMON-LOCAL-USERS-CloudUser01:
-                  '@id': CloudUser01
-                  Enabled: 'true'
-                  ExtendedProperties:
-                    Property:
-                    - '@name': AllowDigestAuthentication
-                      $: 'false'
-                    - '@name': Groups
-                      $: Administrators,CloudGroup01,Everybody
-                COMMON-LOCAL-USERS-userTest:
-                  '@id': userTest
-                  Enabled: 'true'
-                  ExtendedProperties:
-                    Property:
-                    - '@name': AllowDigestAuthentication
-                      $: 'false'
-                    - '@name': Groups
-                      $: Everybody,testGroup
-                COMMON-LOCAL-USERS-abgWithoutGroup:
-                  '@id': abgWithoutGroup
-                  Enabled: 'true'
-                  ExtendedProperties:
-                    Property:
-                    - '@name': AllowDigestAuthentication
-                      $: 'false'
-                    - '@name': Groups
-                      $: Everybody
-                COMMON-LOCAL-USERS-userExec:
-                  '@id': userExec
-                  Enabled: 'true'
-                  ExtendedProperties:
-                    Property:
-                    - '@name': AllowDigestAuthentication
-                      $: 'false'
-                    - '@name': Groups
-                      $: Everybody,execGroup
-              COMMON-JNDI:
-                COMMON-JNDI-JNDI_NSPS:
-                  JNDI:
-                    '@alias': JNDI_NSPS
-                    Description: JNDI NSPS Provider Alias
-                    Provider:
-                      URL: ${integrationserver-default.common-jndi-jndi_nsps.jndi.provider.url}
-                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
-                      User: ${integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user}
-                      Password: ${integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password}
-                COMMON-JNDI-JNDI_NHP_DC:
-                  JNDI:
-                    '@alias': JNDI_NHP_DC
-                    Description: JNDI_NHP_DC
-                    Provider:
-                      URL: ${integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.url}
-                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
-                      User: ${integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.user}
-                      Password: ${integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.password}
-                COMMON-JNDI-JNDI_NSP:
-                  JNDI:
-                    '@alias': JNDI_NSP
-                    Description: JNDI_NSP
-                    Provider:
-                      URL: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url}
-                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
-                      User: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.user}
-                      Password: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.password}
-                COMMON-JNDI-JNDI_TEST_AUTH:
-                  JNDI:
-                    '@alias': JNDI_TEST_AUTH
-                    Description: JNDI_TEST_AUTH
-                    Provider:
-                      URL: ${integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.url}
-                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
-                      User: ${integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.user}
-                      Password: ${integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.password}
-                COMMON-JNDI-JNDI_NHPS:
-                  JNDI:
-                    '@alias': JNDI_NHPS
-                    Description: JNDI_NHPS
-                    Provider:
-                      URL: ${integrationserver-default.common-jndi-jndi_nhps.jndi.provider.url}
-                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
-                      User: ${integrationserver-default.common-jndi-jndi_nhps.jndi.provider.user}
-                      Password: ${integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password}
-                COMMON-JNDI-JNDI_NHP:
-                  JNDI:
-                    '@alias': JNDI_NHP
-                    Description: JNDI_NHP
-                    Provider:
-                      URL: ${integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url}
-                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
-                      User: ${integrationserver-default.common-jndi-jndi_nhp.jndi.provider.user}
-                      Password: ${integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password}
-              IS-ACLS:
-                IS-ACLS-testACL:
-                  '@name': testACL
-                  Allow: null
-                  Deny: null
-                  ExtendedProperties:
-                    Property:
-                    - '@name': ResultingLocalUsers
-                      $: ''
-                IS-ACLS-Cloud01:
-                  '@name': Cloud01
-                  Allow:
-                    Group: local/CloudGroup01
-                  Deny:
-                    Group: none@--@
-                  ExtendedProperties:
-                    Property:
-                    - '@name': ResultingLocalUsers
-                      $: abg,manoj,CloudUser01
-                IS-ACLS-devACL:
-                  '@name': devACL
-                  Allow:
-                    Group: local/devGroup
-                  Deny:
-                    Group: none@--@
-                  ExtendedProperties:
-                    Property:
-                    - '@name': ResultingLocalUsers
-                      $: Administrator,userDev
-                IS-ACLS-ACLTest1:
-                  '@name': ACLTest1
-                  Allow: null
-                  Deny: null
-                  ExtendedProperties:
-                    Property:
-                    - '@name': ResultingLocalUsers
-                      $: ''
-                IS-ACLS-execACL:
-                  '@name': execACL
-                  Allow:
-                    Group: local/execGroup
-                  Deny:
-                    Group: none@--@
-                  ExtendedProperties:
-                    Property:
-                    - '@name': ResultingLocalUsers
-                      $: Administrator,userExec
-                IS-ACLS-123:
-                  '@name': '123'
-                  Allow: null
-                  Deny: null
-                  ExtendedProperties:
-                    Property:
-                    - '@name': ResultingLocalUsers
-                      $: ''
-                IS-ACLS-TrialUserACL:
-                  '@name': TrialUserACL
-                  Allow:
-                    Group: local/TrialUser
-                  Deny:
-                    Group: none@--@
-                  ExtendedProperties:
-                    Property:
-                    - '@name': ResultingLocalUsers
-                      $: manoj
+              IS-DEFAULT-WMMESSAGING:
+                IS-DEFAULT-WMMESSAGING: |
+                  IS_UM_CONNECTION
               COMMON-VARS:
                 COMMON-VARS-cloudMigration:
                   Variable:
                     '@key': cloudMigration
                     '@secure': 'false'
                     $: ${integrationserver-default.common-vars-cloudmigration.variable.$}
-              COMMON-WMMESSAGING:
-                COMMON-WMMESSAGING-TEST_UM_AUTH:
-                  Messaging:
-                    '@alias': TEST_UM_AUTH
-                    Description: TEST_UM_AUTH
-                    ClientPrefix: TEST_UM_AUTH
-                    ShareClientPrefix: 'false'
-                    Enabled: 'true'
-                    Provider:
-                      '@type': UM
-                      URL: ${integrationserver-default.common-wmmessaging-test_um_auth.messaging.provider.url}
-                      MaxRetryAttempts: '5'
-                      RetryInterval: '0'
-                      Auth:
-                        '@type': basic
-                        User: ${integrationserver-default.common-wmmessaging-test_um_auth.messaging.provider.auth.user}
-                        Password: ${integrationserver-default.common-wmmessaging-test_um_auth.messaging.provider.auth.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': useCSQ
-                        $: 'true'
-                      - '@name': csqDrainInOrder
-                        $: 'true'
-                      - '@name': enableRequestReply
-                        $: 'true'
-                      - '@name': csqSize
-                        $: '-1'
-                      - '@name': um_followTheMasterForSubscribe
-                        $: 'false'
-                      - '@name': um_followTheMasterForPublish
-                        $: 'true'
-                COMMON-WMMESSAGING-TEST_UM_NOAUTH:
-                  Messaging:
-                    '@alias': TEST_UM_NOAUTH
-                    Description: TEST_UM_NOAUTH
-                    ClientPrefix: TEST_UM_NOAUTH
-                    ShareClientPrefix: 'false'
-                    Enabled: 'true'
-                    Provider:
-                      '@type': UM
-                      URL: ${integrationserver-default.common-wmmessaging-test_um_noauth.messaging.provider.url}
-                      MaxRetryAttempts: '5'
-                      RetryInterval: '0'
-                      Auth:
-                        '@type': basic
-                        User: ${integrationserver-default.common-wmmessaging-test_um_noauth.messaging.provider.auth.user}
-                        Password: ${integrationserver-default.common-wmmessaging-test_um_noauth.messaging.provider.auth.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': useCSQ
-                        $: 'true'
-                      - '@name': csqDrainInOrder
-                        $: 'true'
-                      - '@name': enableRequestReply
-                        $: 'true'
-                      - '@name': csqSize
-                        $: '-1'
-                      - '@name': um_followTheMasterForSubscribe
-                        $: 'false'
-                      - '@name': um_followTheMasterForPublish
-                        $: 'true'
-                COMMON-WMMESSAGING-TestWebmethodsMessagingSettings:
-                  Messaging:
-                    '@alias': TestWebmethodsMessagingSettings
-                    Description: TestWebmethodsMessagingSettings
-                    ClientPrefix: TestWebmethodsMessagingSettings
-                    ShareClientPrefix: 'false'
-                    Enabled: 'true'
-                    Provider:
-                      '@type': UM
-                      URL: ${integrationserver-default.common-wmmessaging-testwebmethodsmessagingsettings.messaging.provider.url}
-                      MaxRetryAttempts: '5'
-                      RetryInterval: '0'
-                      Auth:
-                        '@type': basic
-                        User: ${integrationserver-default.common-wmmessaging-testwebmethodsmessagingsettings.messaging.provider.auth.user}
-                        Password: ${integrationserver-default.common-wmmessaging-testwebmethodsmessagingsettings.messaging.provider.auth.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': useCSQ
-                        $: 'true'
-                      - '@name': csqDrainInOrder
-                        $: 'true'
-                      - '@name': enableRequestReply
-                        $: 'true'
-                      - '@name': csqSize
-                        $: '-1'
-                      - '@name': um_followTheMasterForSubscribe
-                        $: 'false'
-                      - '@name': um_followTheMasterForPublish
-                        $: 'true'
               COMMON-SMTP:
                 COMMON-SMTP:
-                  Host: smtp.eur.ad.sag
-                  PortNumber: '25'
+                  Host: ${integrationserver-default.common-smtp.host}
+                  PortNumber: ${integrationserver-default.common-smtp.portnumber}
                   TLS: NONE
                   Charset: utf-8
-              IS-RESOURCES:
-                IS-RESOURCES:
-                  Resources:
-                    ServerThreadPool:
-                      MaximumThreads: ${integrationserver-default.is-resources.resources.serverthreadpool.maximumthreads}
-                      MinimumThreads: ${integrationserver-default.is-resources.resources.serverthreadpool.minimumthreads}
-                      AvailableThreadsWarningThreshold: ${integrationserver-default.is-resources.resources.serverthreadpool.availablethreadswarningthreshold}
-                      SchedulerThreadThrottle: ${integrationserver-default.is-resources.resources.serverthreadpool.schedulerthreadthrottle}
-                    Session:
-                      SessionTimeout: ${integrationserver-default.is-resources.resources.session.sessiontimeout}
-                      EnableStatefulSessionLimit: ${integrationserver-default.is-resources.resources.session.enablestatefulsessionlimit}
-                      MaximumStatefulSessions: ${integrationserver-default.is-resources.resources.session.maximumstatefulsessions}
-                      AvailableStatefulSessionWarningThreshold: ${integrationserver-default.is-resources.resources.session.availablestatefulsessionwarningthreshold}
-                  StoreSettings:
-                    DefaultDocumentStore:
-                      StoreLocation: ${integrationserver-default.is-resources.storesettings.defaultdocumentstore.storelocation}
-                      InitialStoreSize: ${integrationserver-default.is-resources.storesettings.defaultdocumentstore.initialstoresize}
-                    TriggerDocumentStore:
-                      StoreLocation: ${integrationserver-default.is-resources.storesettings.triggerdocumentstore.storelocation}
-                      InitialStoreSize: ${integrationserver-default.is-resources.storesettings.triggerdocumentstore.initialstoresize}
-                      User: ${integrationserver-default.is-resources.storesettings.triggerdocumentstore.user}
-                    OutboundDocumentStore: null
-                    XARecoverystore:
-                      StoreLocation: ${integrationserver-default.is-resources.storesettings.xarecoverystore.storelocation}
-                      InitialStoreSize: ${integrationserver-default.is-resources.storesettings.xarecoverystore.initialstoresize}
-                    BrokerConfigured: ${integrationserver-default.is-resources.storesettings.brokerconfigured}
