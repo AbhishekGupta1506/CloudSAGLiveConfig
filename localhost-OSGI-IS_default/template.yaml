@@ -1,17 +1,17 @@
 alias: localhost-OSGI-IS_default
 environments:
   default:
-    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{x2v67aeGKeNqXyGduYhMMz74t6mbMYUNVxpmr96tjSg=}{VTRErosJ3BIcM1GdNn3mZw==}XYQlRgKU4oRMjrGjJNWw3A=='
+    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{x9/DxBDilQUEFN43UlH58WHlwXRq3IlMc76dJzZsgZM=}{nHTOsAn2/u097H7Jw0+EPg==}AzMYMYWPvCtAJfAmnQ1Lzw=='
     integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.user: Administrator
-    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{Q+UeH5CychmdRAe0JbBYiBtzVKIEA3af2VCrTrQOLe0=}{s9/S9yNsB/xnfNl6Lb5eTg==}lcAZYEIXjzOHfFS1pV8kEQ=='
+    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{vOGa0PQEY2E1Ses0MDtqwy071C44M8rXGfqM8iDjm5o=}{MrTI20cCunPNRzVykqY5RQ==}lKuZLk8HHYNYlwjESQM+5g=='
     integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user: Administrator
-    integrationserver-default.common-jms-qcf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{wthE8DdNWHPVD5Xd+djC85Bo0b9yyx/GUdnpGzfs9QU=}{GGsb/kQr7mNro8pC3vsYPg==}CNLMybNVAr4zysQ4nIyCyQ=='
+    integrationserver-default.common-jms-qcf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{RCFS/q0+zmx0S6txDfQjMVOn3fvM9Ib7LX0PnJjDm1U=}{PWKU9mlbyMaQLZiB6qHiPg==}Cj1LZLvQ89XgqITNq0t0yw=='
     integrationserver-default.common-jms-qcf_is_jms_connection.jms.user: Administrator
     integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password: ''
     integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user: ''
-    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{zs5yD/BO0Urd9NTM3gUAKuUAqM9Uv4X/Nf5B9tiEhac=}{MNkjQ4uYp49GhcBRNgsX0Q==}RNYJK0wpWmTt2CWwk/ngog=='
+    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{mHCORaO08PbIQ+H2RSy/XndG5xVrbRT4Dzg2G6yek7c=}{UhOK8ZdTd6waobnquKxwdA==}tRnt/Jpjv7EUtpV3DRet2w=='
     integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.user: Administrator
-    integrationserver-default.common-jms-xacf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{qxCOq/gqnEl4nHxYgE29CtW8SmhBs/NPOWlFkOOecKU=}{jKKnelqe6TaPY3Yj3vRcCw==}S5/o3W49528/6jMPEumO5A=='
+    integrationserver-default.common-jms-xacf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{Abfy8xvcxxH7tJsgmTfbt260KE1tbtDmwbVxXGEvaHo=}{KOzsfgXaqPtFPQf019fosA==}185nZyW/XxtAbYM6/mDntg=='
     integrationserver-default.common-jms-xacf_is_jms_connection.jms.user: Administrator
     integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password: ''
     integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url: nhp://localhost:9004/
@@ -25,18 +25,10 @@ environments:
     integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password: ''
     integrationserver-default.common-jndi-jndi_nsps.jndi.provider.url: nsps://localhost:9002/
     integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user: ''
-    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{OF3BOejsZqvNtC4AjDjm0y8IjSfDCUyyM1/NbetpP2I=}{uLrR7v8fYjuYpj3BQ6KloQ==}gUMQOvUTZL54zL89phwRZA=='
+    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{sfAGmeQRxit3k5U20FP8hOpKo2zZVO8zYRaHnDw6mpY=}{bM5q/Tvv+WfFZxvqOFsK2g==}p1+1jImmwoLJ3fediCk6Kg=='
     integrationserver-default.common-keystores_cloudmigration_keystore.keystore.location: packages\keystorelocation\resources\CloudMigration_keystore.jks
-    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{CQFIHBBXs76vRVkxCcBwDOgNLj8Pl0j2ffTCeq7+YLg=}{NuaxMCDz+/zoSpsUc6PBSw==}LnSWjO9vskaRnQd43Ej1XQ=='
+    integrationserver-default.common-keystores_cloudmigration_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{tz08lyGJ3/n492s2b3CX4NOphtRE0QyG6Rdl1IMMGeQ=}{wbDW+14cljzftNp0tUFBfQ==}H5JSvWBRf0vW1wXlV+PfDg=='
     integrationserver-default.common-keystores_cloudmigration_keystore.keystore.type: JKS
-    integrationserver-default.common-keystores_default_is_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{lCuMeqcCQK/lc2Uui1/zFfaJ9fivxTdw5ueCQF8ZqTI=}{otmNjSTJOAZNhUp3Kfs4Hw==}+wsRF4PFtkN24SdwOrcxZQ=='
-    integrationserver-default.common-keystores_default_is_keystore.keystore.location: C:\SoftwareAG103\common\conf\keystore.jks
-    integrationserver-default.common-keystores_default_is_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{fMwBD6CDkq4KB4hhKfjPwF9demHLePQeMP/wBa+IFao=}{0v/WW+OCjIyKCBIVdVqr/A==}zVYtxWdeduU9FSmSEBqPYg=='
-    integrationserver-default.common-keystores_default_is_keystore.keystore.type: JKS
-    integrationserver-default.common-keystores_is_um_keystore.keystore.key.password: '{AES/CBC/PKCS5Padding}{+TBmexB2jURFhrfaXMI6nQyUD6PrNfwMsNHsw/9V1l8=}{MKVMrBOlVo2jv/8ymqjbNg==}BXpQGaXmrpRc+aOQundndg=='
-    integrationserver-default.common-keystores_is_um_keystore.keystore.location: C:\SoftwareAG103\UniversalMessaging\server\umserver\bin\client.jks
-    integrationserver-default.common-keystores_is_um_keystore.keystore.password: '{AES/CBC/PKCS5Padding}{kKQo8H4LH+V1nm7kk5r7CWiW4zAAUtb1KlJpwv7/if8=}{GIbHJXcijUMyWqmzqLHjCQ==}hErA9c3MaNMsLsuPL8sSXQ=='
-    integrationserver-default.common-keystores_is_um_keystore.keystore.type: JKS
     integrationserver-default.common-local-users-abg.password: ''
     integrationserver-default.common-local-users-clouduser01.password: ''
     integrationserver-default.common-local-users-manoj.password: ''
@@ -46,17 +38,8 @@ environments:
     integrationserver-default.common-smtp.host: smtp.eur.ad.sag
     integrationserver-default.common-smtp.portnumber: '25'
     integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location: packages\keystorelocation\resources\CloudMigration_truststore.jks
-    integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{JROW6icaVM6iiKopXICqlFyEbzf520Z6VovMOFi75LY=}{rvzIYX9idz1p58nLphZ6WQ==}cWJgIcWBQwivUqXb9nvumA=='
+    integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{wbl6D1fJtGVrR3MeYm012N4JgtTzOkug67ZqJ+Oij7k=}{JKk0WODXMPAp9URV6j250Q==}pIXovlvHHodPsyGlDcWdiw=='
     integrationserver-default.common-truststores_cloudmigration_truststore.truststore.type: JKS
-    integrationserver-default.common-truststores_default_is_truststore.truststore.location: C:\SoftwareAG912\common\conf\platform_truststore.jks
-    integrationserver-default.common-truststores_default_is_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{olvco65Wv+gDfuPF32Gdey1fYSQj8zJ2O2A7/fCA4rE=}{ONJcB75OOhqlYPHAOC1tVg==}9x1Ia3BfAfuqy85uWglulg=='
-    integrationserver-default.common-truststores_default_is_truststore.truststore.type: JKS
-    integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.location: packages\WmCloud\config\wmcloud_truststore.jks
-    integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{U7AV10FUjxvxAOxV0qw/OZssQ/3TMZTcU8/8wpS8olM=}{Bj/emRqqJCpVobPzOQXWVQ==}PF2ZlQgnhkfl3hUhHIFUcw=='
-    integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.type: JKS
-    integrationserver-default.common-truststores_is_um_truststore.truststore.location: C:\SoftwareAG103\UniversalMessaging\server\umserver\bin\nirvanacacerts.jks
-    integrationserver-default.common-truststores_is_um_truststore.truststore.password: '{AES/CBC/PKCS5Padding}{B6VXH/VPeEp2T9kdZ39sPhcuU72Wiyu/IhFUueO87BA=}{XdWI5qja3L5Z7bZq0OelRw==}vcsHLcVRRytCbaToNzaQSw=='
-    integrationserver-default.common-truststores_is_um_truststore.truststore.type: JKS
     integrationserver-default.common-vars-cloudmigration.variable.$: 'Hello Cloud
       Migration: Global variable'
     integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.auth.password: '*****'
@@ -301,62 +284,6 @@ templates:
                   '@name': local_TrialUser
                   Members:
                     User: manoj
-              COMMON-TRUSTSTORES:
-                COMMON-TRUSTSTORES_DEFAULT_IS_TRUSTSTORE:
-                  Truststore:
-                    '@alias': DEFAULT_IS_TRUSTSTORE
-                    Description: Default truststore alias for Integration Server.
-                    Type: ${integrationserver-default.common-truststores_default_is_truststore.truststore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-truststores_default_is_truststore.truststore.location}
-                    Password: ${integrationserver-default.common-truststores_default_is_truststore.truststore.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
-                        $: 'true'
-                      - '@name': certficateAliases
-                        $: ssos
-                COMMON-TRUSTSTORES_IS_UM_TRUSTSTORE:
-                  Truststore:
-                    '@alias': IS_UM_TRUSTSTORE
-                    Description: IS_UM_KEYSTORE
-                    Type: ${integrationserver-default.common-truststores_is_um_truststore.truststore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-truststores_is_um_truststore.truststore.location}
-                    Password: ${integrationserver-default.common-truststores_is_um_truststore.truststore.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
-                        $: 'true'
-                      - '@name': certficateAliases
-                        $: localhost,127.0.0.1,nirvana client
-                COMMON-TRUSTSTORES_CloudMigration_truststore:
-                  Truststore:
-                    '@alias': CloudMigration_truststore
-                    Type: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location}
-                    Password: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
-                        $: 'true'
-                      - '@name': certficateAliases
-                        $: ssos
-                COMMON-TRUSTSTORES_DEFAULT_WMCLOUD_TRUSTSTORE:
-                  Truststore:
-                    '@alias': DEFAULT_WMCLOUD_TRUSTSTORE
-                    Description: Default truststore alias for webMethods Cloud.
-                    Type: ${integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.location}
-                    Password: ${integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
-                        $: 'true'
-                      - '@name': certficateAliases
-                        $: digicert global root ca,geotrust global ca,geotrust primary certification authority - g3,geotrust rsa ca 2018 (digicert global root ca),geotrust sha256 ssl ca (geotrust primary certification authority - g3),geotrust ssl ca - g3 (geotrust global ca),geotrust ssl ca - g3 (geotrust global ca)_intermediate,integrationlive_sso,saglive.com,seclab,thawte primary root ca,thawte ssl ca - g2,webmcloudwild_new,webmcloudwild_new2,webmethodscloud_private,webmethodscloudwild,webmethodscloudwild_de,webmethodscloudwild_de_new,webmethodscloudwild_de_new2,webmethodscloudwild_eu,webmethodscloudwild_eu_new,webmethodscloudwild_eu_new2,webmethodscloudwild_new,webmethodscloudwild_new2
               COMMON-JMS:
                 COMMON-JMS-CFSharedDurable_IS_JMS_CONNECTION:
                   JMS:
@@ -785,38 +712,6 @@ templates:
                       Property:
                       - '@name': isLoaded
                         $: 'true'
-                COMMON-KEYSTORES_IS_UM_KEYSTORE:
-                  Keystore:
-                    '@alias': IS_UM_KEYSTORE
-                    Description: IS_UM_KEYSTORE
-                    Type: ${integrationserver-default.common-keystores_is_um_keystore.keystore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-keystores_is_um_keystore.keystore.location}
-                    Password: ${integrationserver-default.common-keystores_is_um_keystore.keystore.password}
-                    HSMBased: 'false'
-                    Key:
-                      '@alias': nirvana client
-                      Password: ${integrationserver-default.common-keystores_is_um_keystore.keystore.key.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
-                        $: 'true'
-                COMMON-KEYSTORES_DEFAULT_IS_KEYSTORE:
-                  Keystore:
-                    '@alias': DEFAULT_IS_KEYSTORE
-                    Description: Default keystore alias for Integration Server.
-                    Type: ${integrationserver-default.common-keystores_default_is_keystore.keystore.type}
-                    Provider: SUN
-                    Location: ${integrationserver-default.common-keystores_default_is_keystore.keystore.location}
-                    Password: ${integrationserver-default.common-keystores_default_is_keystore.keystore.password}
-                    HSMBased: 'false'
-                    Key:
-                      '@alias': ssos
-                      Password: ${integrationserver-default.common-keystores_default_is_keystore.keystore.key.password}
-                    ExtendedProperties:
-                      Property:
-                      - '@name': isLoaded
-                        $: 'true'
               IS-DEFAULT-WMMESSAGING:
                 IS-DEFAULT-WMMESSAGING: |
                   IS_UM_CONNECTION
@@ -826,6 +721,20 @@ templates:
                     '@key': cloudMigration
                     '@secure': 'false'
                     $: ${integrationserver-default.common-vars-cloudmigration.variable.$}
+              COMMON-TRUSTSTORES:
+                COMMON-TRUSTSTORES_CloudMigration_truststore:
+                  Truststore:
+                    '@alias': CloudMigration_truststore
+                    Type: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.type}
+                    Provider: SUN
+                    Location: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location}
+                    Password: ${integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password}
+                    ExtendedProperties:
+                      Property:
+                      - '@name': isLoaded
+                        $: 'true'
+                      - '@name': certficateAliases
+                        $: ssos
               COMMON-SMTP:
                 COMMON-SMTP:
                   Host: ${integrationserver-default.common-smtp.host}
