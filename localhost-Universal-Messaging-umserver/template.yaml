@@ -1,6 +1,7 @@
 alias: localhost-Universal-Messaging-umserver
 environments:
   default:
+    universal-messaging-umserver.common-local-users-administrator.password: ''
     universal-messaging-umserver.um-jndi-cf-cfnonshareddurable.url: nsp://localhost:9000/
     universal-messaging-umserver.um-jndi-cf-cfshareddurable.url: nsp://localhost:9000/
     universal-messaging-umserver.um-jndi-cf-eventfactory.url: nsp://VMSIQACLOUD02.eur.ad.sag:9000
@@ -9,7 +10,9 @@ environments:
     universal-messaging-umserver.um-jndi-cf-tcfshareddurable.url: nsp://localhost:9000/
     universal-messaging-umserver.um-jndi-cf-xacf.url: nsp://localhost:9000/
     universal-messaging-umserver.um-jndi-dest-jndiqueue.autocreatedest: 'false'
+    universal-messaging-umserver.um-jndi-dest-jndiqueue_sc-7279.autocreatedest: 'false'
     universal-messaging-umserver.um-jndi-dest-jnditopic.autocreatedest: 'false'
+    universal-messaging-umserver.um-jndi-dest-jnditopic_sc-7279.autocreatedest: 'false'
     universal-messaging-umserver.um-jndi-dest-queuemixed.autocreatedest: 'false'
     universal-messaging-umserver.um-jndi-dest-queueoff-heap.autocreatedest: 'false'
     universal-messaging-umserver.um-jndi-dest-queuepaged.autocreatedest: 'false'
@@ -25,13 +28,13 @@ environments:
     universal-messaging-umserver.um-jndi-dest-topicsimple.autocreatedest: 'false'
     universal-messaging-umserver.um-jndi-dest-topictransient.autocreatedest: 'false'
 layers:
-  UM-layer:
-    templates: UM-template
+  localhost-Universal-Messaging-umserver-layer:
+    templates: localhost-Universal-Messaging-umserver-template
 provision:
   default:
-    UM-layer: ${nodes}
+    localhost-Universal-Messaging-umserver-layer: ${nodes}
 templates:
-  UM-template:
+  localhost-Universal-Messaging-umserver-template:
     products:
       NUMRealmServer:
         umserver:
@@ -42,10 +45,6 @@ templates:
                   name: QCF
                   type: QueueConnectionFactory
                   url: ${universal-messaging-umserver.um-jndi-cf-qcf.url}
-                UM-JNDI-CF-XACF:
-                  name: XACF
-                  type: XAConnectionFactory
-                  url: ${universal-messaging-umserver.um-jndi-cf-xacf.url}
                 UM-JNDI-CF-CFSharedDurable:
                   name: CFSharedDurable
                   type: ConnectionFactory
@@ -66,12 +65,61 @@ templates:
                   type: ConnectionFactory
                   url: ${universal-messaging-umserver.um-jndi-cf-cfnonshareddurable.url}
                   durableType: Named
+                UM-JNDI-CF-XACF:
+                  name: XACF
+                  type: XAConnectionFactory
+                  url: ${universal-messaging-umserver.um-jndi-cf-xacf.url}
                 UM-JNDI-CF-TCFSharedDurable:
                   name: TCFSharedDurable
                   type: TopicConnectionFactory
                   url: ${universal-messaging-umserver.um-jndi-cf-tcfshareddurable.url}
                   durableType: Shared
               UM-JNDI-DEST:
+                UM-JNDI-DEST-QueuePaged:
+                  name: QueuePaged
+                  type: Queue
+                  storeName: QueuePaged
+                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-queuepaged.autocreatedest}
+                UM-JNDI-DEST-QueueReliable:
+                  name: QueueReliable
+                  type: Queue
+                  storeName: QueueReliable
+                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-queuereliable.autocreatedest}
+                UM-JNDI-DEST-TopicReliable:
+                  name: TopicReliable
+                  type: Topic
+                  storeName: TopicReliable
+                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-topicreliable.autocreatedest}
+                UM-JNDI-DEST-QueueTransient:
+                  name: QueueTransient
+                  type: Queue
+                  storeName: QueueTransient
+                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-queuetransient.autocreatedest}
+                UM-JNDI-DEST-TopicTransient:
+                  name: TopicTransient
+                  type: Topic
+                  storeName: TopicTransient
+                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-topictransient.autocreatedest}
+                UM-JNDI-DEST-QueuePersistent:
+                  name: QueuePersistent
+                  type: Queue
+                  storeName: QueuePersistent
+                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-queuepersistent.autocreatedest}
+                UM-JNDI-DEST-JNDITopic_SC-7279:
+                  name: JNDITopic_SC-7279
+                  type: Topic
+                  storeName: JNDITopic_SC-7279
+                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-jnditopic_sc-7279.autocreatedest}
+                UM-JNDI-DEST-JNDIQueue_SC-7279:
+                  name: JNDIQueue_SC-7279
+                  type: Queue
+                  storeName: JNDIQueue_SC-7279
+                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-jndiqueue_sc-7279.autocreatedest}
+                UM-JNDI-DEST-JNDIQueue:
+                  name: JNDIQueue
+                  type: Queue
+                  storeName: JNDIQueue
+                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-jndiqueue.autocreatedest}
                 UM-JNDI-DEST-QueueMixed:
                   name: QueueMixed
                   type: Queue
@@ -102,41 +150,11 @@ templates:
                   type: Queue
                   storeName: QueueOff-Heap
                   autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-queueoff-heap.autocreatedest}
-                UM-JNDI-DEST-QueuePaged:
-                  name: QueuePaged
-                  type: Queue
-                  storeName: QueuePaged
-                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-queuepaged.autocreatedest}
-                UM-JNDI-DEST-QueueReliable:
-                  name: QueueReliable
-                  type: Queue
-                  storeName: QueueReliable
-                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-queuereliable.autocreatedest}
-                UM-JNDI-DEST-TopicReliable:
-                  name: TopicReliable
-                  type: Topic
-                  storeName: TopicReliable
-                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-topicreliable.autocreatedest}
                 UM-JNDI-DEST-TopicMixed:
                   name: TopicMixed
                   type: Topic
                   storeName: TopicMixed
                   autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-topicmixed.autocreatedest}
-                UM-JNDI-DEST-QueueTransient:
-                  name: QueueTransient
-                  type: Queue
-                  storeName: QueueTransient
-                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-queuetransient.autocreatedest}
-                UM-JNDI-DEST-TopicTransient:
-                  name: TopicTransient
-                  type: Topic
-                  storeName: TopicTransient
-                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-topictransient.autocreatedest}
-                UM-JNDI-DEST-QueuePersistent:
-                  name: QueuePersistent
-                  type: Queue
-                  storeName: QueuePersistent
-                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-queuepersistent.autocreatedest}
                 UM-JNDI-DEST-TopicPaged:
                   name: TopicPaged
                   type: Topic
@@ -147,8 +165,7 @@ templates:
                   type: Topic
                   storeName: TopicSimple
                   autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-topicsimple.autocreatedest}
-                UM-JNDI-DEST-JNDIQueue:
-                  name: JNDIQueue
-                  type: Queue
-                  storeName: JNDIQueue
-                  autoCreateDest: ${universal-messaging-umserver.um-jndi-dest-jndiqueue.autocreatedest}
+              COMMON-LOCAL-USERS:
+                COMMON-LOCAL-USERS-Administrator:
+                  '@id': Administrator
+                  Password: ${universal-messaging-umserver.common-local-users-administrator.password}
