@@ -1,0 +1,406 @@
+alias: localhost-OSGI-IS_default-UM
+environments:
+  default:
+    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{5FoOeOmasJchjPXN/dKtLmudjN1DFP871gtu9QzbKiE=}{7jx+jMKh0KiT5/h9jKC+rg==}Ljse7D/VP71tGwir2pOqGg=='
+    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.user: Administrator
+    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{aeCv/hYBKAfmC5oTTTWdGruBIKaDHDoTjTLhSqvZk1g=}{MP0EWjqG3IOPhRBMQBemfA==}T3c0HLeqjMk4JvssigSKuQ=='
+    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user: Administrator
+    integrationserver-default.common-jms-qcf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{6ryxQPXsGgRiMubzt2klwzOBGW2s9pY/CO7lQAYFEo8=}{RYcgP6apC8W1Kwmd5LrfFQ==}RejfixBWUVmH7KJu1uN45g=='
+    integrationserver-default.common-jms-qcf_is_jms_connection.jms.user: Administrator
+    integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password: ''
+    integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user: ''
+    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{YupqOk9CPnSfKqdz7Cqd2WiCbpPv69CYVcu74mY534I=}{PZFp9/2+z4NIU8rs28S31g==}DjuzF/VS/uK4gc0uSKIUeA=='
+    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.user: Administrator
+    integrationserver-default.common-jms-xacf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{uBgEuuF9N87k/eGqpk2XUONx4t9oFXiE58QEPTqp058=}{gAaqExKSXtRPp3innKhxaA==}J2qXt6mtaqOviweNqfJ2cg=='
+    integrationserver-default.common-jms-xacf_is_jms_connection.jms.user: Administrator
+    integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password: ''
+    integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url: nhp://localhost:9004/
+    integrationserver-default.common-jndi-jndi_nhp.jndi.provider.user: ''
+    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password: ''
+    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.url: nhps://localhost:9003/
+    integrationserver-default.common-jndi-jndi_nhps.jndi.provider.user: ''
+    integrationserver-default.common-jndi-jndi_nsp.jndi.provider.password: ''
+    integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url: nsp://localhost:9000/
+    integrationserver-default.common-jndi-jndi_nsp.jndi.provider.user: ''
+    integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password: ''
+    integrationserver-default.common-jndi-jndi_nsps.jndi.provider.url: nsps://localhost:9002/
+    integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user: ''
+    integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.auth.password: '*****'
+    integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.auth.user: Administrator
+    integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.url: nsp://localhost:9000
+    integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.auth.password: '*****'
+    integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.auth.user: Administrator
+    integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.url: nsps://localhost:9002
+    integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.auth.password: '*****'
+    integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.auth.user: Administrator
+    integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.url: nhps://localhost:9003/
+layers:
+  localhost-OSGI-IS_default-layer:
+    templates: localhost-OSGI-IS_default-template
+provision:
+  default:
+    localhost-OSGI-IS_default-layer: ${nodes}
+templates:
+  localhost-OSGI-IS_default-template:
+    products:
+      integrationServer:
+        default:
+          configuration:
+            integrationServer-default:
+              COMMON-JNDI:
+                COMMON-JNDI-JNDI_NHP:
+                  JNDI:
+                    '@alias': JNDI_NHP
+                    Description: JNDI_NHP
+                    Provider:
+                      URL: ${integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url}
+                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+                      User: ${integrationserver-default.common-jndi-jndi_nhp.jndi.provider.user}
+                      Password: ${integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password}
+                COMMON-JNDI-JNDI_NSPS:
+                  JNDI:
+                    '@alias': JNDI_NSPS
+                    Description: JNDI NSPS Provider Alias
+                    Provider:
+                      URL: ${integrationserver-default.common-jndi-jndi_nsps.jndi.provider.url}
+                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+                      User: ${integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user}
+                      Password: ${integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password}
+                COMMON-JNDI-JNDI_NHPS:
+                  JNDI:
+                    '@alias': JNDI_NHPS
+                    Description: JNDI_NHPS
+                    Provider:
+                      URL: ${integrationserver-default.common-jndi-jndi_nhps.jndi.provider.url}
+                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+                      User: ${integrationserver-default.common-jndi-jndi_nhps.jndi.provider.user}
+                      Password: ${integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password}
+                COMMON-JNDI-JNDI_NSP:
+                  JNDI:
+                    '@alias': JNDI_NSP
+                    Description: JNDI_NSP
+                    Provider:
+                      URL: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url}
+                      InitialContextFactory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+                      User: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.user}
+                      Password: ${integrationserver-default.common-jndi-jndi_nsp.jndi.provider.password}
+              COMMON-JMS:
+                COMMON-JMS-CFSharedDurable_IS_JMS_CONNECTION:
+                  JMS:
+                    '@alias': CFSharedDurable_IS_JMS_CONNECTION
+                    Description: CFSharedDurable_IS_JMS_CONNECTION
+                    Enabled: 'true'
+                    TransactionType: NO_TRANSACTION
+                    ClientId: ''
+                    Provider:
+                      '@type': JNDI
+                      JNDIAlias: JNDI_NSPS
+                      JNDIConnectionFactoryName: CFSharedDurable
+                    User: ${integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user}
+                    Password: ${integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password}
+                    MaxRetryAttempts: '0'
+                    RetryInterval: '1000'
+                    Caching: DISABLED
+                    ExtendedProperties:
+                      Property:
+                      - '@name': jndi_connectionFactoryUpdateType
+                        $: NONE
+                      - '@name': jndi_connectionFactoryPollingInterval
+                        $: '0'
+                      - '@name': jndi_enableFollowTheMaster
+                        $: 'true'
+                      - '@name': classLoader
+                        $: INTEGRATION_SERVER
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': optTempQueueCreate
+                        $: 'true'
+                      - '@name': allowReplyToConsumer
+                        $: 'false'
+                      - '@name': manageDestinations
+                        $: 'true'
+                      - '@name': allowNewConnectionPerTrigger
+                        $: 'false'
+                COMMON-JMS-TCFSharedDurable_IS_JMS_CONNECTION:
+                  JMS:
+                    '@alias': TCFSharedDurable_IS_JMS_CONNECTION
+                    Description: TCFSharedDurable_IS_JMS_CONNECTION
+                    Enabled: 'true'
+                    TransactionType: NO_TRANSACTION
+                    ClientId: ''
+                    Provider:
+                      '@type': JNDI
+                      JNDIAlias: DEFAULT_IS_JNDI_PROVIDER
+                      JNDIConnectionFactoryName: TCFSharedDurable
+                    User: ${integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.user}
+                    Password: ${integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password}
+                    MaxRetryAttempts: '0'
+                    RetryInterval: '1000'
+                    Caching: DISABLED
+                    ExtendedProperties:
+                      Property:
+                      - '@name': jndi_connectionFactoryUpdateType
+                        $: NONE
+                      - '@name': jndi_connectionFactoryPollingInterval
+                        $: '0'
+                      - '@name': jndi_enableFollowTheMaster
+                        $: 'true'
+                      - '@name': classLoader
+                        $: INTEGRATION_SERVER
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': optTempQueueCreate
+                        $: 'true'
+                      - '@name': allowReplyToConsumer
+                        $: 'false'
+                      - '@name': manageDestinations
+                        $: 'true'
+                      - '@name': allowNewConnectionPerTrigger
+                        $: 'false'
+                COMMON-JMS-TCFNonSharedDurable_IS_JMS_CONNECTION:
+                  JMS:
+                    '@alias': TCFNonSharedDurable_IS_JMS_CONNECTION
+                    Description: TCFNonSharedDurable_IS_JMS_CONNECTION
+                    Enabled: 'true'
+                    TransactionType: NO_TRANSACTION
+                    ClientId: ''
+                    Provider:
+                      '@type': JNDI
+                      JNDIAlias: DEFAULT_IS_JNDI_PROVIDER
+                      JNDIConnectionFactoryName: TCFNonSharedDurable
+                    User: ${integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user}
+                    Password: ${integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password}
+                    MaxRetryAttempts: '0'
+                    RetryInterval: '1000'
+                    Caching: DISABLED
+                    ExtendedProperties:
+                      Property:
+                      - '@name': jndi_connectionFactoryUpdateType
+                        $: NONE
+                      - '@name': jndi_connectionFactoryPollingInterval
+                        $: '0'
+                      - '@name': jndi_enableFollowTheMaster
+                        $: 'true'
+                      - '@name': classLoader
+                        $: INTEGRATION_SERVER
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': optTempQueueCreate
+                        $: 'true'
+                      - '@name': allowReplyToConsumer
+                        $: 'false'
+                      - '@name': manageDestinations
+                        $: 'true'
+                      - '@name': allowNewConnectionPerTrigger
+                        $: 'false'
+                COMMON-JMS-XACF_IS_JMS_CONNECTION:
+                  JMS:
+                    '@alias': XACF_IS_JMS_CONNECTION
+                    Description: XACF_IS_JMS_CONNECTION
+                    Enabled: 'true'
+                    TransactionType: XA_TRANSACTION
+                    ClientId: ''
+                    Provider:
+                      '@type': JNDI
+                      JNDIAlias: JNDI_NHP
+                      JNDIConnectionFactoryName: XACF
+                    User: ${integrationserver-default.common-jms-xacf_is_jms_connection.jms.user}
+                    Password: ${integrationserver-default.common-jms-xacf_is_jms_connection.jms.password}
+                    MaxRetryAttempts: '0'
+                    RetryInterval: '1000'
+                    Caching: DISABLED
+                    ExtendedProperties:
+                      Property:
+                      - '@name': jndi_connectionFactoryUpdateType
+                        $: NONE
+                      - '@name': jndi_connectionFactoryPollingInterval
+                        $: '0'
+                      - '@name': jndi_enableFollowTheMaster
+                        $: 'true'
+                      - '@name': classLoader
+                        $: INTEGRATION_SERVER
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': optTempQueueCreate
+                        $: 'true'
+                      - '@name': allowReplyToConsumer
+                        $: 'false'
+                      - '@name': manageDestinations
+                        $: 'true'
+                      - '@name': allowNewConnectionPerTrigger
+                        $: 'false'
+                COMMON-JMS-CFNonSharedDurable_IS_JMS_CONNECTION:
+                  JMS:
+                    '@alias': CFNonSharedDurable_IS_JMS_CONNECTION
+                    Description: CFNonSharedDurable_IS_JMS_CONNECTION
+                    Enabled: 'true'
+                    TransactionType: NO_TRANSACTION
+                    ClientId: ''
+                    Provider:
+                      '@type': JNDI
+                      JNDIAlias: JNDI_NHPS
+                      JNDIConnectionFactoryName: CFNonSharedDurable
+                    User: ${integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.user}
+                    Password: ${integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password}
+                    MaxRetryAttempts: '0'
+                    RetryInterval: '1000'
+                    Caching: DISABLED
+                    ExtendedProperties:
+                      Property:
+                      - '@name': jndi_connectionFactoryUpdateType
+                        $: NONE
+                      - '@name': jndi_connectionFactoryPollingInterval
+                        $: '0'
+                      - '@name': jndi_enableFollowTheMaster
+                        $: 'true'
+                      - '@name': classLoader
+                        $: INTEGRATION_SERVER
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': optTempQueueCreate
+                        $: 'true'
+                      - '@name': allowReplyToConsumer
+                        $: 'false'
+                      - '@name': manageDestinations
+                        $: 'true'
+                      - '@name': allowNewConnectionPerTrigger
+                        $: 'false'
+                COMMON-JMS-QCF_IS_JMS_CONNECTION:
+                  JMS:
+                    '@alias': QCF_IS_JMS_CONNECTION
+                    Description: QCF_IS_JMS_CONNECTION
+                    Enabled: 'true'
+                    TransactionType: NO_TRANSACTION
+                    ClientId: ''
+                    Provider:
+                      '@type': JNDI
+                      JNDIAlias: JNDI_NSP
+                      JNDIConnectionFactoryName: QCF
+                    User: ${integrationserver-default.common-jms-qcf_is_jms_connection.jms.user}
+                    Password: ${integrationserver-default.common-jms-qcf_is_jms_connection.jms.password}
+                    MaxRetryAttempts: '0'
+                    RetryInterval: '1000'
+                    Caching: DISABLED
+                    ExtendedProperties:
+                      Property:
+                      - '@name': jndi_connectionFactoryUpdateType
+                        $: NONE
+                      - '@name': jndi_connectionFactoryPollingInterval
+                        $: '0'
+                      - '@name': jndi_enableFollowTheMaster
+                        $: 'true'
+                      - '@name': classLoader
+                        $: INTEGRATION_SERVER
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': optTempQueueCreate
+                        $: 'true'
+                      - '@name': allowReplyToConsumer
+                        $: 'false'
+                      - '@name': manageDestinations
+                        $: 'true'
+                      - '@name': allowNewConnectionPerTrigger
+                        $: 'false'
+              COMMON-WMMESSAGING:
+                COMMON-WMMESSAGING-SECURE_NHPS_IS_UM_CONNECTION:
+                  Messaging:
+                    '@alias': SECURE_NHPS_IS_UM_CONNECTION
+                    Description: SECURE_NHPS_IS_UM_CONNECTION
+                    ClientPrefix: SECURE_NHPS_IS_UM_CONNECTION
+                    ShareClientPrefix: 'false'
+                    Enabled: 'false'
+                    Provider:
+                      '@type': UM
+                      URL: ${integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.url}
+                      MaxRetryAttempts: '5'
+                      RetryInterval: '0'
+                      Auth:
+                        '@type': basic
+                        User: ${integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.auth.user}
+                        Password: ${integrationserver-default.common-wmmessaging-secure_nhps_is_um_connection.messaging.provider.auth.password}
+                    ExtendedProperties:
+                      Property:
+                      - '@name': useCSQ
+                        $: 'true'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': enableRequestReply
+                        $: 'true'
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': um_followTheMasterForSubscribe
+                        $: 'false'
+                      - '@name': um_followTheMasterForPublish
+                        $: 'true'
+                COMMON-WMMESSAGING-SECURE_IS_UM_CONNECTION:
+                  Messaging:
+                    '@alias': SECURE_IS_UM_CONNECTION
+                    Description: SECURE_IS_UM_CONNECTION
+                    ClientPrefix: SSLClient
+                    ShareClientPrefix: 'false'
+                    Enabled: 'false'
+                    Provider:
+                      '@type': UM
+                      URL: ${integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.url}
+                      MaxRetryAttempts: '5'
+                      RetryInterval: '0'
+                      Auth:
+                        '@type': basic
+                        User: ${integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.auth.user}
+                        Password: ${integrationserver-default.common-wmmessaging-secure_is_um_connection.messaging.provider.auth.password}
+                    ExtendedProperties:
+                      Property:
+                      - '@name': useCSQ
+                        $: 'true'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': enableRequestReply
+                        $: 'true'
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': um_followTheMasterForSubscribe
+                        $: 'false'
+                      - '@name': um_followTheMasterForPublish
+                        $: 'true'
+                COMMON-WMMESSAGING-Basic_IS_JMS_CONNECTION:
+                  Messaging:
+                    '@alias': Basic_IS_JMS_CONNECTION
+                    Description: Basic_IS_JMS_CONNECTION
+                    ClientPrefix: Basic_IS_JMS_CONNECTION
+                    ShareClientPrefix: 'false'
+                    Enabled: 'true'
+                    Provider:
+                      '@type': UM
+                      URL: ${integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.url}
+                      MaxRetryAttempts: '5'
+                      RetryInterval: '0'
+                      Auth:
+                        '@type': basic
+                        User: ${integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.auth.user}
+                        Password: ${integrationserver-default.common-wmmessaging-basic_is_jms_connection.messaging.provider.auth.password}
+                    ExtendedProperties:
+                      Property:
+                      - '@name': useCSQ
+                        $: 'true'
+                      - '@name': csqDrainInOrder
+                        $: 'true'
+                      - '@name': enableRequestReply
+                        $: 'true'
+                      - '@name': csqSize
+                        $: '-1'
+                      - '@name': um_followTheMasterForSubscribe
+                        $: 'false'
+                      - '@name': um_followTheMasterForPublish
+                        $: 'true'
