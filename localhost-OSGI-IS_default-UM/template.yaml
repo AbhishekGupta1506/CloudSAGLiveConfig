@@ -1,17 +1,17 @@
 alias: localhost-OSGI-IS_default-UM
 environments:
   default:
-    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{5FoOeOmasJchjPXN/dKtLmudjN1DFP871gtu9QzbKiE=}{7jx+jMKh0KiT5/h9jKC+rg==}Ljse7D/VP71tGwir2pOqGg=='
+    integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password: ''
     integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.user: Administrator
-    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{aeCv/hYBKAfmC5oTTTWdGruBIKaDHDoTjTLhSqvZk1g=}{MP0EWjqG3IOPhRBMQBemfA==}T3c0HLeqjMk4JvssigSKuQ=='
+    integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password: ''
     integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user: Administrator
-    integrationserver-default.common-jms-qcf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{6ryxQPXsGgRiMubzt2klwzOBGW2s9pY/CO7lQAYFEo8=}{RYcgP6apC8W1Kwmd5LrfFQ==}RejfixBWUVmH7KJu1uN45g=='
+    integrationserver-default.common-jms-qcf_is_jms_connection.jms.password: ''
     integrationserver-default.common-jms-qcf_is_jms_connection.jms.user: Administrator
     integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password: ''
     integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user: ''
-    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{YupqOk9CPnSfKqdz7Cqd2WiCbpPv69CYVcu74mY534I=}{PZFp9/2+z4NIU8rs28S31g==}DjuzF/VS/uK4gc0uSKIUeA=='
+    integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password: ''
     integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.user: Administrator
-    integrationserver-default.common-jms-xacf_is_jms_connection.jms.password: '{AES/CBC/PKCS5Padding}{uBgEuuF9N87k/eGqpk2XUONx4t9oFXiE58QEPTqp058=}{gAaqExKSXtRPp3innKhxaA==}J2qXt6mtaqOviweNqfJ2cg=='
+    integrationserver-default.common-jms-xacf_is_jms_connection.jms.password: ''
     integrationserver-default.common-jms-xacf_is_jms_connection.jms.user: Administrator
     integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password: ''
     integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url: nhp://localhost:9004/
